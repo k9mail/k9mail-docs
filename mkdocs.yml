@@ -1,0 +1,39 @@
+site_name: K-9 Mail
+theme: readthedocs
+markdown_extensions:
+  - toc
+nav:
+  - Welcome: index.md
+  - Setup:
+    - Installation: setup/installation.md
+    - Initial Set-up: setup/welcome.md
+    - App permissions: setup/permissions.md
+  - Accounts: 
+    - Adding an Account: accounts/add.md
+    - IMAP Server Settings: accounts/incoming_imap.md
+    - POP3 Server Settings: accounts/incoming_pop3.md
+    - WebDAV (Exchange): accounts/incoming_webdav.md
+    - Managing / Viewing Accounts: accounts/view.md
+    - Removing Accounts: accounts/remove.md
+    - Common Provider Settings: accounts/provider_settings.md
+  - Reading:
+    - Reading mail: reading/reading.md
+    - Notifications: reading/notifications.md
+  - Sending:
+    - Composing and Sending E-mail: sending/sending.md
+  - Settings:
+    - Overview: settings/overview.md
+    - Global settings: settings/global.md
+    - Account settings: settings/account.md
+    - Folder settings: settings/folder.md
+    - Import/Export settings: settings/import_export.md
+    - Configuring folders: settings/folders.md
+  - Security:
+    - Overview: security/overview.md
+    - SSL/TLS: security/ssl.md
+    - PGP/MIME: security/pgpmime.md
+    - S/MIME: security/smime.md
+  - Miscellaneous:
+    - Widgets: misc/widgets.md
+    - Debugging: misc/debugging.md
+    - Frequently asked questions: misc/faq.md
