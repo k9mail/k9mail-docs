@@ -19,6 +19,8 @@ For consistency of appearance, we use a virtual device with the following settin
 * Density: xxhdpi
 * API 29 "Android 10.0 (Google APIs)" - not "... (Google Play)"
 
+Once created, swipe away the "Set up SD card" notification to reduce clutter.
+
 The Android emulator has a built-in screenshot function, so you do not need crop your desktop.
 
 To take a screenshot use the camera icon on the right of the emulator screen.
