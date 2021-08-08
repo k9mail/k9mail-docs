@@ -21,6 +21,14 @@ For consistency of appearance, we use a virtual device with the following settin
 
 Once created, swipe away the "Set up SD card" notification to reduce clutter.
 
+Follow the [System UI Demo Mode](https://android.googlesource.com/platform/frameworks/base/+/master/packages/SystemUI/docs/demo_mode.md)
+activation instructions:
+
+```
+adb shell settings put global sysui_demo_allowed 1     # only needed once
+adb shell am broadcast -a com.android.systemui.demo -e command enter
+```
+
 The Android emulator has a built-in screenshot function, so you do not need crop your desktop.
 
 To take a screenshot use the camera icon on the right of the emulator screen.
