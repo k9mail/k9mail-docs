@@ -23,7 +23,7 @@ need access to your contacts.
 
 ### Read sync settings
 
-In order to fetch contacts properly and to respect Android's background sync setting we need this permission.
+In order to respect Android's global background sync setting when fetching mail, we need this permission.
 
 ### Run at startup
 
