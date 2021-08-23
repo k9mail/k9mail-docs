@@ -60,11 +60,11 @@ WAN or a private LAN via Wi-Fi. See below for more details if you have trouble.
 Available options are:
 
 * None: This doesn't use any transport security at all.
-* SSL/TLS (if available): TLS is used but the server's certificate isn't checked for validity.
-* **SSL/TLS (always)**: TLS is used and the server's certificate is checked.
-* STARTTLS (if available): The STARTTLS method is used if available, but the server's certificate isn't checked. If STARTTLS is not
-available, no encryption is used at all.
-* **STARTTLS (always)**: The STARTTLS method is used and the server's certificate is checked.
+* SSL/TLS: TLS is used.
+* STARTTLS: The STARTTLS method is used.
+
+TLS and STARTTLS are both secure so it does not matter which you use, as long as it is supported by
+your outgoing mail provider.
 
 **Port**: The port number your provider's SMTP is listening on. This may be *465* or *587*, and in rare cases *25*, 
 depending on the configuration and transport security settings of your server and K-9.
@@ -82,7 +82,7 @@ Outgoing username -- and it will commonly be identical to the incoming username,
 You shouldn't need to change this.
 * **Encrypted Password**: Use this if your server doesn't support transport security but supports the CRAM_MD5 authentication
 method.
-* **Client Certificate**: The server expects (only) a client certificate during the TLS connection. The server must not require a password.
+* **Client Certificate**: The server expects (only) a client certificate during the TLS connection. The server must not require a password, for this option to work.
 
 **Password**: The password that's needed to authenticate to the SMTP server. This is often, though not always, identical
 to the password for the incoming server.
