@@ -82,7 +82,9 @@ Outgoing username -- and it will commonly be identical to the incoming username,
 You shouldn't need to change this.
 * **Encrypted Password**: Use this if your server doesn't support transport security but supports the CRAM_MD5 authentication
 method.
-* **Client Certificate**: The server expects (only) a client certificate during the TLS connection. The server must not require a password, for this option to work.
+* **Client Certificate**: The server expects *only* a client certificate during the TLS connection.
+If the server requires *both* certificate and password, choose one of the "Password" options here and add
+the client certificate below.
 
 **Password**: The password that's needed to authenticate to the SMTP server. This is often, though not always, identical
 to the password for the incoming server.
@@ -95,6 +97,11 @@ the settings you just entered.
 
 ![Checking outgoing server settings](img/account_setup_step4.5_smtp_checking_outgoing_server_settings.png)
 
+If the server has an invalid certificate (e.g. self-signed) then at this point you can inspect the certificate
+and choose to accept it permanently. Check with your mail provider before accepting the certificate, since
+this could indicate an attempt to tamper with your mail connection.
+
+![Invalid certificate](img/account_setup_step3.6_invalid_certificate.png)
 
 ## Account options
 
