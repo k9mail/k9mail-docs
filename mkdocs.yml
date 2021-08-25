@@ -2,6 +2,7 @@ site_name: K-9 Mail
 theme: readthedocs
 markdown_extensions:
   - toc
+  - attr_list
 nav:
   - Welcome: index.md
   - Setup:
@@ -37,3 +38,5 @@ nav:
     - Widgets: misc/widgets.md
     - Debugging: misc/debugging.md
     - Frequently asked questions: misc/faq.md
+extra_css:
+  - stylesheets/extra.css
