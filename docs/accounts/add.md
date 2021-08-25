@@ -82,9 +82,8 @@ Outgoing username -- and it will commonly be identical to the incoming username,
 You shouldn't need to change this.
 * **Encrypted Password**: Use this if your server doesn't support transport security but supports the CRAM_MD5 authentication
 method.
-* **Client Certificate**: The server expects *only* a client certificate during the TLS connection.
-If the server requires *both* certificate and password, choose one of the "Password" options here and add
-the client certificate below.
+* **Client Certificate**: Use this if the service supports authentication using the client certificate from the TLS connection.
+If the server requires *both* certificate and password, choose one of the "Password" options here.
 
 **Password**: The password that's needed to authenticate to the SMTP server. This is often, though not always, identical
 to the password for the incoming server.
