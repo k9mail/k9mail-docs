@@ -19,17 +19,16 @@ We also [list information on the settings for major e-mail providers](provider_s
 
 ## Account Type
 
-If you need to configure it manually, you will need to first choose an account type. The available options are POP3, 
-IMAP, and WebDAV (supported by Exchange versions up to 2007).
+If you need to configure it manually, you will need to first choose an account type.
+The available options are POP3 and IMAP.
 
 All of these are names of protocols to access your mailbox. If your email provider supports it, we strongly recommend 
 you use IMAP. It is superior to the others and well supported by K-9 Mail.
 
 For more information see the linked Wikipedia entries:
 
-* [IMAP](https://en.wikipedia.org/wiki/IMAP)
-* [POP3](https://en.wikipedia.org/wiki/POP3)
-* [WebDAV](https://en.wikipedia.org/wiki/WebDAV)
+* [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol)
+* [POP3](https://en.wikipedia.org/wiki/Post_Office_Protocol)
 
 ![Account type selection](img/account_setup_step2_account_type_selection.png)
 
@@ -39,7 +38,6 @@ To configure your incoming server settings see the corresponding page
 
 * [IMAP](incoming_imap.md)
 * [POP3](incoming_pop3.md)
-* [WebDAV](incoming_webdav.md)
 
 ## Configuring the outgoing server
 
@@ -62,11 +60,11 @@ WAN or a private LAN via Wi-Fi. See below for more details if you have trouble.
 Available options are:
 
 * None: This doesn't use any transport security at all.
-* SSL/TLS (if available): SSL/TLS is used but the certificate isn't checked.
-* **SSL/TLS (always)**: SSL/TLS is used and it's checked if the certificate is valid.
-* STARTTLS (if available): The STARTTLS method is used if available; the certificate isn't checked. If STARTTLS is not
-available, no encryption is used at all.
-* **STARTTLS (always)**: The STARTTLS method is used and the certificate is checked for validity.
+* SSL/TLS: TLS is used.
+* STARTTLS: The STARTTLS method is used.
+
+TLS and STARTTLS are both secure so it does not matter which you use, as long as it is supported by
+your outgoing mail provider.
 
 **Port**: The port number your provider's SMTP is listening on. This may be *465* or *587*, and in rare cases *25*, 
 depending on the configuration and transport security settings of your server and K-9.
@@ -74,27 +72,35 @@ depending on the configuration and transport security settings of your server an
 **Require sign-in**: Tells K-9 Mail whether or not it will be expected to authenticate to the server. In almost all 
 cases this needs to remain checked.
 
-**Authentication type**: This specifies which authentication method to use. Available options are:
-
-* **AUTOMATIC**: This is the default method that will automatically detect which authentication methods are supported. 
-You shouldn't need to change this.
-* **LOGIN**: This uses the LOGIN authentication method.
-* **PLAIN**: This uses the PLAIN authentication method.
-* **CRAM_MD5**: Use this if your server doesn't support transport security but supports the CRAM_MD5 authentication 
-method.
-
-**Username**: The username that's needed to authenticate to the SMTP server. This is usually equal to either the 
-left-hand side of, or the entire, email address; your mail server operator should have told you what to use as an 
+**Username**: The username that's needed to authenticate to the SMTP server. This is usually equal to either the
+left-hand side of, or the entire, email address; your mail server operator should have told you what to use as an
 Outgoing username -- and it will commonly be identical to the incoming username, though not always.
+
+**Authentication**: This specifies which authentication method to use. Available options are:
+
+* **Normal Password**: This is the default method that will automatically detect which authentication methods are supported.
+You shouldn't need to change this.
+* **Encrypted Password**: Use this if your server doesn't support transport security but supports the CRAM_MD5 authentication
+method.
+* **Client Certificate**: Use this if the service supports authentication using the client certificate from the TLS connection.
+If the server requires *both* certificate and password, choose one of the "Password" options here.
 
 **Password**: The password that's needed to authenticate to the SMTP server. This is often, though not always, identical
 to the password for the incoming server.
 
-To complete the outgoing server configuration click "Next". And again, K-9 Mail tries to connect to the server to verify
+**Client Certificate**: If the server expects a TLS client certificate to be provided during the initial connection,
+use this to select one from the local Android certificate store.
+
+To complete the outgoing server configuration click "Next". Again, K-9 Mail tries to connect to the server to verify
 the settings you just entered.
 
 ![Checking outgoing server settings](img/account_setup_step4.5_smtp_checking_outgoing_server_settings.png)
 
+If the server has an invalid certificate (e.g. self-signed) then at this point you can inspect the certificate
+and choose to accept it permanently. Check with your mail provider before accepting the certificate, since
+this could indicate an attempt to tamper with your mail connection.
+
+![Invalid certificate](img/account_setup_step3.6_invalid_certificate.png)
 
 ## Account options
 
@@ -108,9 +114,6 @@ account/mailbox you configure; you can set them differently for different mailbo
 are new messages. Available options are:
 
 * Never
-* Every minute
-* Every 5 minutes
-* Every 10 minutes
 * Every 15 minutes
 * Every 30 minutes
 * Every hour
@@ -120,13 +123,6 @@ are new messages. Available options are:
 * Every 12 hours
 * Every 24 hours
 
-**Enable push mail for this account**: This option is only available for IMAP accounts. When it is enabled a long-lived
-connection to the IMAP server is established so K-9 Mail can be notified by the server when a new message has arrived.
-When this is set, you do not need to select a poll frequency, because you do not poll.
-
-This decreases delivery notification delay and thus for some it is worth choosing a mailbox based on the provider 
-support for IMAP IDLE. Note that it may require multiple connections which might not be supported or undesired by the
-server administration.
 
 **Number of messages to display**: This value determines how many messages are kept locally cached and displayed. 
 Available options are:
@@ -137,7 +133,6 @@ Available options are:
 * 250 messages
 * 500 messages
 * 1000 messages
-* all messages
 
 Higher values have some performance implications. See [*Local folder size*](../settings/account.md#local-folder-size) 
 for more information.
@@ -145,9 +140,6 @@ for more information.
 **Notify me when mail arrives**: If this is checked you are notified when a new message was downloaded in this mailbox.
 Notification type (LED, vibration) and ringtone can be configured later. See 
 [*Notifications*](../settings/account.md#notifications) for more information.
-
-**Notify me while mail is being checked**: If this option is enabled K-9 Mail will inform the user when an account is 
-being synchronized by displaying a message in the Android title bar.
 
 ## Last step
 
@@ -158,6 +150,7 @@ To complete the account creation you have to fill out the following two fields:
 **Give this account a name** (optional): This is the name of the account that will be displayed in the account list. If
 you leave this field empty the email address associated with this account will be used.
 
-**Type your name**: This will be used as your name for messages sent using this account.
+**Type your name**: This will be used as your name for messages sent using this account. Recipients
+of your email will see this name.
 
 Once you've done this, click "Done", and the account will be completely set up.
