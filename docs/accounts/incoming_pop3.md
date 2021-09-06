@@ -46,5 +46,16 @@ administrator set for you or gave to you, which you use to retrieve mail from th
 **Client certificate**: If the server expects a TLS client certificate to be provided during the initial connection,
 use this to select one from the local Android certificate store.
 
+After clicking "Next" K-9 Mail tries to connect to the server to verify the settings. This means you need to have a
+working network connection to continue the setup.
+
+![Checking incoming server settings](img/account_setup_step3.5_imap_checking_incoming_server_settings.png)
+
+If the server has an invalid certificate (e.g. self-signed) then at this point you can inspect the certificate
+and choose to accept it permanently. Check with your mail provider before accepting the certificate, since
+this could indicate an attempt to tamper with your mail connection.
+
+![Invalid certificate](img/account_setup_step3.6_invalid_certificate.png)
+
 After the server settings are checked you can now continue to 
 [configure the outgoing server](add.md#configuring-the-outgoing-server).

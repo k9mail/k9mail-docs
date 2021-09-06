@@ -70,5 +70,11 @@ working network connection to continue the setup.
 
 ![Checking incoming server settings](img/account_setup_step3.5_imap_checking_incoming_server_settings.png)
 
+If the server has an invalid certificate (e.g. self-signed) then at this point you can inspect the certificate
+and choose to accept it permanently. Check with your mail provider before accepting the certificate, since
+this could indicate an attempt to tamper with your mail connection.
+
+![Invalid certificate](img/account_setup_step3.6_invalid_certificate.png)
+
 After the server settings are checked you can now continue to 
 [configure the outgoing server](add.md#configuring-the-outgoing-server).
