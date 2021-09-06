@@ -56,7 +56,7 @@ pick up incoming mail from a separate one; this is why many of the items below s
 name or IP must be accessible from any network from which you may want to send mail, whether your cellular carrier's
 WAN or a private LAN via Wi-Fi. See below for more details if you have trouble.
 
-**Security type**: This specifies the cryptographic protocol that should be used when connecting to your SMTP server. 
+**Security**: This specifies the cryptographic protocol that should be used when connecting to your SMTP server.
 Available options are:
 
 * None: This doesn't use any transport security at all.
@@ -78,17 +78,18 @@ Outgoing username -- and it will commonly be identical to the incoming username,
 
 **Authentication**: This specifies which authentication method to use. Available options are:
 
-* **Normal Password**: This is the default method that will automatically detect which authentication methods are supported.
+* **Normal password**: This is the default method that will automatically detect which authentication methods are supported.
 You shouldn't need to change this.
-* **Encrypted Password**: Use this if your server doesn't support transport security but supports the CRAM_MD5 authentication
+* **Encrypted password**: Use this if your server doesn't support transport security but supports the CRAM_MD5 authentication
 method.
-* **Client Certificate**: Use this if the service supports authentication using the client certificate from the TLS connection.
+* **Client certificate**: Use this if the service supports authentication using the client certificate from the TLS connection.
 If the server requires *both* certificate and password, choose one of the "Password" options here.
+* **Password, transmitted insecurely**: (Only displayed if Security is "None") Use only as a last resort. The password will be transmitted without any encryption.
 
 **Password**: The password that's needed to authenticate to the SMTP server. This is often, though not always, identical
 to the password for the incoming server.
 
-**Client Certificate**: If the server expects a TLS client certificate to be provided during the initial connection,
+**Client certificate**: If the server expects a TLS client certificate to be provided during the initial connection,
 use this to select one from the local Android certificate store.
 
 To complete the outgoing server configuration click "Next". Again, K-9 Mail tries to connect to the server to verify
