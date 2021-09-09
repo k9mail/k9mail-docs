@@ -1,6 +1,6 @@
 # IMAP Server Settings
 
-The following images show all the IMAP related settings. 
+The following images show all the IMAP related settings.
 Later we describe them in detail.  Note that on a smartphone, your popped-up soft keyboard may be 
 covering some of these entry fields; don't forget to scroll.
 
@@ -77,4 +77,4 @@ this could indicate an attempt to tamper with your mail connection.
 ![Invalid certificate](img/account_setup_step3.6_invalid_certificate.png)
 
 After the server settings are checked you can now continue to 
-[configure the outgoing server](add.md#configuring-the-outgoing-server).
+[configure the outgoing server](outgoing.md).

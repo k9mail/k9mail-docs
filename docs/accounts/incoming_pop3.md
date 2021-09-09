@@ -1,5 +1,7 @@
 # POP3 Server Settings
 
+The following images show all the POP3 related settings.
+
 ![POP3 server settings](img/account_setup_step3_pop3_incoming_server.png)
 
 **POP3 server**: This is the hostname or IP address of your POP3 server. Note that this address must resolve to your 
@@ -57,5 +59,5 @@ this could indicate an attempt to tamper with your mail connection.
 
 ![Invalid certificate](img/account_setup_step3.6_invalid_certificate.png)
 
-After the server settings are checked you can now continue to 
-[configure the outgoing server](add.md#configuring-the-outgoing-server).
+After the server settings are checked you can now continue to
+[configure the outgoing server](outgoing.md).
