@@ -13,6 +13,7 @@ nav:
     - Adding an Account: accounts/add.md
     - IMAP Server Settings: accounts/incoming_imap.md
     - POP3 Server Settings: accounts/incoming_pop3.md
+    - Outgoing Server Settings: accounts/outgoing.md
     - Managing / Viewing Accounts: accounts/view.md
     - Removing Accounts: accounts/remove.md
     - Common Provider Settings: accounts/provider_settings.md
