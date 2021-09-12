@@ -9,7 +9,7 @@ First you are asked for your email address and password.
 The buttons "Manual setup" and "Next" become only activated after a correctly formatted email address and a password
 have been typed in.
 
-![Screen to enter email address and password](img/account_setup_step1_empty.png) ![Email address and password filled in](img/account_setup_step1_filled_in.png)
+![Screen to enter email address and password](../img/screenshots/account_setup_step1_empty.png) ![Email address and password filled in](../img/screenshots/account_setup_step1_filled_in.png)
 
 If you choose "Next" and the domain part of your email address is known to K-9 Mail, the connection settings for the 
 incoming and outgoing server are automatically set up for you. This is the case for some large email providers, 
@@ -30,7 +30,7 @@ For more information see the linked Wikipedia entries:
 * [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol)
 * [POP3](https://en.wikipedia.org/wiki/Post_Office_Protocol)
 
-![Account type selection](img/account_setup_step2_account_type_selection.png)
+![Account type selection](../img/screenshots/account_setup_step2_account_type_selection.png)
 
 ## Incoming Server Settings
 

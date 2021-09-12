@@ -2,7 +2,6 @@ site_name: K-9 Mail
 theme: readthedocs
 markdown_extensions:
   - toc
-  - attr_list
 nav:
   - Welcome: index.md
   - Setup:
