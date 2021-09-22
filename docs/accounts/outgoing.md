@@ -13,7 +13,7 @@ pick up incoming mail from a separate one; this is why many of the items below s
 
 ![Outgoing server settings](../img/screenshots/account_setup_step4_smtp_outgoing_server.png)
 
-**SMTP server**: This is the hostname or IP address of your SMTP server. As discussed above under **IMAP Server**, this
+**SMTP server**: This is the hostname or IP address of your SMTP server. As discussed under [IMAP](incoming_imap.md), this
 name or IP must be accessible from any network from which you may want to send mail, whether your cellular carrier's
 WAN or a private LAN via Wi-Fi. See below for more details if you have trouble.
 
