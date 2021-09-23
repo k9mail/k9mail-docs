@@ -6,6 +6,13 @@ Open the settings screen:
 
 ![settings icon](../img/screenshots/settings_select.png)
 
+Select the account that you want to delete:
+
+![select account](../img/screenshots/account_select.png)
+
+Select "Add account":
+
+
 Select the menu icon in the top corner:
 
 ![menu icon](../img/screenshots/account_menu_icon.png)

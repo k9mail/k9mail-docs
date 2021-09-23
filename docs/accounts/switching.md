@@ -1,7 +1,7 @@
-# Switching Between Multiple Accounts
+# Switching between multiple accounts
 
-If you configure multiple accounts in K-9, the default view will be the Unified Inbox.
-This will show you a combined list of the emails in all your accounts' inboxes.
+The default view is the Unified Inbox.
+This shows you a combined list of the emails in all your accounts' inboxes.
 
 To switch to a specific account, tap the drawer icon in the top left corner.
 
