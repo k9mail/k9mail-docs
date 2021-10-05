@@ -3,41 +3,46 @@ theme: material
 markdown_extensions:
   - toc
 nav:
-  - Welcome: index.md
+  - Welcome: en/current/index.md
   - Setup:
-    - Installation: setup/installation.md
-    - Initial Set-up: setup/welcome.md
-    - App permissions: setup/permissions.md
+    - Installation: en/current/setup/installation.md
+    - Initial Set-up: en/current/setup/welcome.md
+    - App permissions: en/current/setup/permissions.md
   - Accounts: 
-    - Adding an Account: accounts/add.md
-    - IMAP Server Settings: accounts/incoming_imap.md
-    - POP3 Server Settings: accounts/incoming_pop3.md
-    - Outgoing Server Settings: accounts/outgoing.md
+    - Adding an Account: en/current/accounts/add.md
+    - IMAP Server Settings: en/current/accounts/incoming_imap.md
+    - POP3 Server Settings: en/current/accounts/incoming_pop3.md
+    - Outgoing Server Settings: en/current/accounts/outgoing.md
     - Managing / Viewing Accounts:
-        - Adding another account: accounts/add_another.md
-        - Switching Accounts: accounts/switching.md
-        - Removing Accounts: accounts/remove.md
-    - Common Provider Settings: accounts/provider_settings.md
+        - Adding another account: en/current/accounts/add_another.md
+        - Switching Accounts: en/current/accounts/switching.md
+        - Removing Accounts: en/current/accounts/remove.md
+    - Common Provider Settings: en/current/accounts/provider_settings.md
   - Reading:
-    - Reading mail: reading/reading.md
-    - Notifications: reading/notifications.md
+    - Reading mail: en/current/reading/reading.md
+    - Notifications: en/current/reading/notifications.md
   - Sending:
-    - Composing and Sending E-mail: sending/sending.md
+    - Composing and Sending E-mail: en/current/sending/sending.md
   - Settings:
-    - Overview: settings/overview.md
-    - Global settings: settings/global.md
-    - Account settings: settings/account.md
-    - Folder settings: settings/folder.md
-    - Import/Export settings: settings/import_export.md
-    - Configuring folders: settings/folders.md
+    - Overview: en/current/settings/overview.md
+    - Global settings: en/current/settings/global.md
+    - Account settings: en/current/settings/account.md
+    - Folder settings: en/current/settings/folder.md
+    - Import/Export settings: en/current/settings/import_export.md
+    - Configuring folders: en/current/settings/folders.md
   - Security:
-    - Overview: security/overview.md
-    - SSL/TLS: security/ssl.md
-    - PGP/MIME: security/pgpmime.md
-    - S/MIME: security/smime.md
+    - Overview: en/current/security/overview.md
+    - SSL/TLS: en/current/security/ssl.md
+    - PGP/MIME: en/current/security/pgpmime.md
+    - S/MIME: en/current/security/smime.md
   - Miscellaneous:
-    - Widgets: misc/widgets.md
-    - Debugging: misc/debugging.md
-    - Frequently asked questions: misc/faq.md
+    - Widgets: en/current/misc/widgets.md
+    - Debugging: en/current/misc/debugging.md
+    - Frequently asked questions: en/current/misc/faq.md
 extra_css:
   - stylesheets/extra.css
+
+plugins:
+  - redirects:
+      redirect_maps:
+        'index.md': 'en/current/index.md'
