@@ -29,30 +29,18 @@ Remember to check the option to Leave messages on the server
 
 ## Gmail (Google Mail)
 
-Gmail supports IMAP. Note that Google also prefers a more secure authentication protocol called XOAuth 2.0 which is 
-currently not supported by K-9.
-
-To configure access to Gmail in K-9, just follow the steps below:
-
-1. Enable IMAP in your Gmail settings.  
-   If you have 2FA enabled for your Google account, visit [https://myaccount.google.com/security#signin](https://myaccount.google.com/security#signin).  
-   Click on "App Passwords" and generate a new password.
-   This is the password you will use for IMAP in lieu of your Gmail password.
-1. Open K-9 and set up a new account.
-1. Enter your full Gmail address and password, then select Next.
-1. On the next screen, you can give the account a nickname and choose the name to display on your outgoing messages. 
-1. Tap Done.
 
 
 ## Hotmail / MSN / Outlook Live
 
-Hotmail supports IMAP, POP3 and Exchange ActiveSync.
+
+Hotmail supports both IMAP (preferred) and POP3.
 
 ### IMAP
 
 - **Server address**: imap-mail.outlook.com
 - **Port**: 993
-- **Encrypted Connection**: SSL
+- **Security**: SSL/TLS
 - **User name**: Your email address
 - **Password**: Your password
 
@@ -67,19 +55,19 @@ To use POP3 first enable it in your e-mail settings:
 1. Click Save.
 
 Use these server settings with K-9 Mail:
-  
+
 - **Server address**: pop-mail.outlook.com
 - **Port**: 995
-- **Encrypted Connection**: SSL
+- **Security**: SSL/TLS
 - **User name**: Your email address
 - **Password**: Your password
 
 ### SMTP
 
 - **Server address**: smtp-mail.outlook.com
-- **Port**: 25 (or 587 if 25 is blocked)
+- **Port**: 587
 - **Authentication**: Yes
-- **Encrypted Connection**: TLS
+- **Security**: STARTTLS
 - **User name**: Your email address
 - **Password**: Your password
 
