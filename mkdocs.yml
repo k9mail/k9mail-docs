@@ -17,7 +17,6 @@ nav:
         - Adding another account: en/current/accounts/add_another.md
         - Switching Accounts: en/current/accounts/switching.md
         - Removing Accounts: en/current/accounts/remove.md
-    - Common Provider Settings: en/current/accounts/provider_settings.md
   - Reading:
     - Reading mail: en/current/reading/reading.md
     - Notifications: en/current/reading/notifications.md
