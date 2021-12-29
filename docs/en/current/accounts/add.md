@@ -15,7 +15,7 @@ If you choose "Next" and the domain part of your email address is known to K-9 M
 incoming and outgoing server are automatically set up for you. This is the case for some large email providers, 
 e.g. Gmail, Yahoo!, and AOL.
 
-We also [list information on the settings for major e-mail providers](provider_settings.md).
+We also list information on the settings for major e-mail providers [in the FAQ](https://forum.k9mail.app/c/faq/6).
 
 ## Account Type
 
