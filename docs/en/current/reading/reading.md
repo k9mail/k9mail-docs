@@ -75,3 +75,36 @@ Some actions are available only within the single message view, others are alway
 * Send Again - Attempt to send this message again (usually used from the Sent folder)
 * Show Headers
 * Compose
+
+## Keyboard Navigation
+
+| Shortcut        | Message List      | Message Details |
+| --------------- | ----------------- | --------------- |
+| **Del**         | delete            | delete          |
+| **Volume up**   | next message¹     | next message¹   |
+| **Volume down** | prev message¹     | prev message¹   |
+| **Back**        | managed back²     | managed back²   |
+| **a**           | reply-all         | reply-all       |
+| **c**           | compose           |                 |
+| **d**           | delete            | delete          |
+| **f**           | forward           | forward         |
+| **g**           | toggle flag       | toggle flag     |
+| **h**           | show keys help    | show keys help  |
+| **i**           | toggle sort order |                 |
+| **j**           |                   | prev message    |
+| **k**           |                   | next message    |
+| **m**           | move              | move            |
+| **n**           |                   | next message    |
+| **p**           |                   | prev message    |
+| **q**           | up-to folder list |                 |
+| **r**           | reply             | reply           |
+| **o**           | cycle sort key    |                 |
+| **s**           | toggle selected   | move-to-spam    |
+| **u**           | mark as unread    | mark as unread  |
+| **v**           | archive           | archive         |
+| **y**           | copy              | copy            |
+| **shift-z**     |                   | zoom in         |
+| **z**           | toggle read       | zoom out        |
+
+¹ if manage volume keys is turned on
+² if manage back button is turned on
