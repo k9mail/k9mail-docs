@@ -21,7 +21,8 @@ nav:
     - Reading mail: en/current/reading/reading.md
     - Notifications: en/current/reading/notifications.md
   - Sending:
-    - Composing and Sending E-mail: en/current/sending/sending.md
+    - Starting to Compose an E-mail: en/current/sending/sending_start.md
+    - Editing E-mail Content: en/current/sending/sending_content.md
   - Settings:
     - Overview: en/current/settings/overview.md
     - Global settings: en/current/settings/global.md
