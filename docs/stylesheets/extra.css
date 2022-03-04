@@ -1,3 +1,7 @@
 img[src*="/img/screenshots/"] {
 width:25em;
 }
+
+img[src*="/img/snippets/"] {
+transform: scale(0.4);
+}
