@@ -4,9 +4,9 @@ The following images show all the IMAP related settings.
 Later we describe them in detail.  Note that on a smartphone, your popped-up soft keyboard may be 
 covering some of these entry fields; don't forget to scroll.
 
-![Incoming server settings (part 1)](../img/screenshots/account_setup_step3_imap_incoming_server_1.png)
+![Incoming server settings (part 1)](img/account_setup_step3_imap_incoming_server_1.png)
 &nbsp;
-![Incoming server settings (part 2)](../img/screenshots/account_setup_step3_imap_incoming_server_2.png)
+![Incoming server settings (part 2)](img/account_setup_step3_imap_incoming_server_2.png)
 
 **IMAP server**: This is the hostname or IP address of your IMAP server. Note that this address must resolve to your 
 mail server no matter what network you're connected to -- if you provide a name or IP that's only resolvable *inside 
@@ -68,13 +68,13 @@ problems. So there should be no need to change these.
 After clicking "Next" K-9 Mail tries to connect to the server to verify the settings. This means you need to have a 
 working network connection to continue the setup.
 
-![Checking incoming server settings](../img/screenshots/account_setup_step3.5_imap_checking_incoming_server_settings.png)
+![Checking incoming server settings](img/account_setup_step3.5_imap_checking_incoming_server_settings.png)
 
 If the server has an invalid certificate (e.g. self-signed) then at this point you can inspect the certificate
 and choose to accept it permanently. Check with your mail provider before accepting the certificate, since
 this could indicate an attempt to tamper with your mail connection.
 
-![Invalid certificate](../img/screenshots/account_setup_step3.6_invalid_certificate.png)
+![Invalid certificate](img/account_setup_step3.6_invalid_certificate.png)
 
 After the server settings are checked you can now continue to 
 [configure the outgoing server](outgoing.md).

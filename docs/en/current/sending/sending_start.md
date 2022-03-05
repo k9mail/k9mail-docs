@@ -6,20 +6,20 @@ You can send an email from several start points:
 
 This is visible when you a viewing a list of messages:
 
-![Compose button](../img/screenshots/sending_compose_1.png)
+![Compose button](img/sending_compose_1.png)
 
 ## Compose menu option
 
 This is available from the overflow menu when you are viewing a single message:
 
-![Compose menu option](../img/screenshots/sending_compose_2.png)
+![Compose menu option](img/sending_compose_2.png)
 
 ## Via another Android app
 
 For example, when you view a contact in the Contacts app, you can send an email to that contact
 using K-9 by tapping their email address.
 
-![Via contacts](../img/screenshots/sending_contacts.png)
+![Via contacts](img/sending_contacts.png)
 
 Your browser can open K-9 when you tap a special type of web link called `mailto:` which is designed
 to open your email client and autofill the address(es), subject, and email body.
@@ -28,7 +28,7 @@ to open your email client and autofill the address(es), subject, and email body.
 
 You can send a message based on an existing message using one of the options in the reply menu
 
-![Reply menu](../img/screenshots/sending_reply.png)
+![Reply menu](img/sending_reply.png)
 
 ### Reply
 

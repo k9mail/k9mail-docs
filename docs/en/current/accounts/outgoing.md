@@ -11,7 +11,7 @@ Because of the nature of email service, you often (if not always, these days) se
 pick up incoming mail from a separate one; this is why many of the items below say "this is often, but not always, the
  same as the setting for incoming mail".
 
-![Outgoing server settings](../img/screenshots/account_setup_step4_smtp_outgoing_server.png)
+![Outgoing server settings](img/account_setup_step4_smtp_outgoing_server.png)
 
 **SMTP server**: This is the hostname or IP address of your SMTP server. As discussed under [IMAP](incoming_imap.md), this
 name or IP must be accessible from any network from which you may want to send mail, whether your cellular carrier's
@@ -56,13 +56,13 @@ use this to select one from the local Android certificate store.
 To complete the outgoing server configuration click "Next". Again, K-9 Mail tries to connect to the server to verify
 the settings you just entered.
 
-![Checking outgoing server settings](../img/screenshots/account_setup_step4.5_smtp_checking_outgoing_server_settings.png)
+![Checking outgoing server settings](img/account_setup_step4.5_smtp_checking_outgoing_server_settings.png)
 
 If the server has an invalid certificate (e.g. self-signed) then at this point you can inspect the certificate
 and choose to accept it permanently. Check with your mail provider before accepting the certificate, since
 this could indicate an attempt to tamper with your mail connection.
 
-![Invalid certificate](../img/screenshots/account_setup_step3.6_invalid_certificate.png)
+![Invalid certificate](img/account_setup_step3.6_invalid_certificate.png)
 
 ## Account options
 
@@ -70,7 +70,7 @@ After successfully setting up the incoming and outgoing servers, you can now con
 K-9 Mail checks for new messages, if you want to be notified of new mail, etc. These settings are specific to each 
 account/mailbox you configure; you can set them differently for different mailboxes.
 
-![Account options](../img/screenshots/account_setup_step5_account_options.png)
+![Account options](img/account_setup_step5_account_options.png)
 
 **Folder poll frequency**: Here you specify in what interval K-9 Mail should check the incoming server to see if there 
 are new messages. Available options are:
@@ -107,7 +107,7 @@ Notification type (LED, vibration) and ringtone can be configured later. See
 
 To complete the account creation you have to fill out the following two fields:
 
-![Screen to enter account name and your display name](../img/screenshots/account_setup_step6_account_name.png)
+![Screen to enter account name and your display name](img/account_setup_step6_account_name.png)
 
 **Give this account a name** (optional): This is the name of the account that will be displayed in the account list. If
 you leave this field empty the email address associated with this account will be used.
