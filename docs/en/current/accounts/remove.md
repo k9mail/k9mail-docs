@@ -4,18 +4,18 @@ To remove an email account from K-9 Mail do the following:
 
 Open the settings screen:
 
-![settings icon](../img/screenshots/settings_select.png)
+![settings icon](img/settings_select.png)
 
 Select the account that you want to delete:
 
-![select account](../img/screenshots/account_select.png)
+![select account](img/account_select.png)
 
 Select "Add account":
 
 
 Select the menu icon in the top corner:
 
-![menu icon](../img/screenshots/account_menu_icon.png)
+![menu icon](img/account_menu_icon.png)
 
 Select the option "Remove account".
 

@@ -1,7 +1,3 @@
-img[src*="/img/screenshots/"] {
+img[src*="/img/"] {
 width:25em;
-}
-
-img[src*="/img/snippets/"] {
-transform: scale(0.4);
 }

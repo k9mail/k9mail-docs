@@ -23,7 +23,7 @@ consistent before/after they perform the action.
 
 ## Browsing E-mail
 
-![Folder Message List](../img/screenshots/reading_folder_view.png) ![Message View](../img/screenshots/reading_email_view.png)
+![Folder Message List](img/reading_folder_view.png) ![Message View](img/reading_email_view.png)
 
 At this point, you're looking at a Message List -- a list of all (or only the unread) messages in a given folder; in 
 this case, the Inbox folder for that email account.  This list displays:
@@ -52,7 +52,7 @@ When one or more messages are selected, actions appear in the Action Bar at the 
 an overflow menu, so some of the actions might require you to tap the right hand menu icon (circled below.)
 If you are unsure of the meaning of an icon, you can safely long-press it to show a tooltip.
 
-![Message Options](../img/screenshots/reading_actionbar_options.png)
+![Message Options](img/reading_actionbar_options.png)
 
 ### Message Actions
 

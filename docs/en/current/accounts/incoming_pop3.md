@@ -2,7 +2,7 @@
 
 The following images show all the POP3 related settings.
 
-![POP3 server settings](../img/screenshots/account_setup_step3_pop3_incoming_server.png)
+![POP3 server settings](img/account_setup_step3_pop3_incoming_server.png)
 
 **POP3 server**: This is the hostname or IP address of your POP3 server. Note that this address must resolve to your 
 mail server no matter what network you're connected to -- if you provide a name or IP that's only resolvable *inside 
@@ -51,13 +51,13 @@ use this to select one from the local Android certificate store.
 After clicking "Next" K-9 Mail tries to connect to the server to verify the settings. This means you need to have a
 working network connection to continue the setup.
 
-![Checking incoming server settings](../img/screenshots/account_setup_step3.5_imap_checking_incoming_server_settings.png)
+![Checking incoming server settings](img/account_setup_step3.5_imap_checking_incoming_server_settings.png)
 
 If the server has an invalid certificate (e.g. self-signed) then at this point you can inspect the certificate
 and choose to accept it permanently. Check with your mail provider before accepting the certificate, since
 this could indicate an attempt to tamper with your mail connection.
 
-![Invalid certificate](../img/screenshots/account_setup_step3.6_invalid_certificate.png)
+![Invalid certificate](img/account_setup_step3.6_invalid_certificate.png)
 
 After the server settings are checked you can now continue to
 [configure the outgoing server](outgoing.md).

@@ -1,6 +1,6 @@
 # Editing E-mail Content
 
-![Message Compose screen](../img/screenshots/sending_edit.png)
+![Message Compose screen](img/sending_edit.png)
 
 ## From address
 
@@ -23,13 +23,13 @@ You can type an email address into this box if you know it exactly. K-9 will sim
 your contacts for matching names, nicknames, and email addresses. If you choose one of the suggestions,
 that will replace what you have typed.
 
-![Contact search](../img/screenshots/sending_compose_to.png)
+![Contact search](img/sending_compose_to.png)
 
 To add multiple recipients, tap into the box again and start typing again.
 
 To delete a recipient, tap the recipient and then the delete button in the popup.
 
-![Delete recipient](../img/screenshots/sending_compose_to_delete.png)
+![Delete recipient](img/sending_compose_to_delete.png)
 
 You can also press backspace on the keyboard to delete the recipient before the cursor.
 
@@ -55,18 +55,18 @@ Tapping the file attachment icon opens Android's system file picker for you to a
 Existing attachments are shown at the bottom of the screen. If you change your mind you can remove 
 the attachment using the cross on the right.
 
-![Delete attachment](../img/screenshots/sending_remove_attachment.png)
+![Delete attachment](img/sending_remove_attachment.png)
 
 A large attachment may take a while to load. In this case a loading icon is displayed. You must
 wait for the loading to complete before sending your message.
 
-![Wait for attachment to load](../img/screenshots/sending_compose_wait.png)
+![Wait for attachment to load](img/sending_compose_wait.png)
 
 ## Saving as draft
 
 K-9 will save your message in the remote Drafts folder if you press the back button and choose 'Safe as Draft'.
 
-![Back Draft](../img/screenshots/sending_compose_draft.png)
+![Back Draft](img/sending_compose_draft.png)
 
 To get back to your draft message, choose the message from within the account's Draft folder.
 
