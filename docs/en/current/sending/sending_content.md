@@ -76,3 +76,26 @@ A draft is also created when you switch away from the K-9 application.
 
 At the bottom of the message text the default signature is shown. This can be changed in
 [Settings/Account Settings/Manage identities/*Identity*/Signature](../settings/account.md#signature).
+
+## Encryption
+
+If the recipient's key is available, the padlock icon will be shown next to the contact name:
+
+![Encryption](img/sending_encryption.png)
+
+Once you've added all recipients, to encrypt (and sign) the email, tap the padlock icon.
+
+![Enable Encryption](img/sending_encryption_enable.png)
+
+The icon will change to green to indicate encryption will be enabled for this message.
+
+![Encryption OK](img/sending_encryption_ok.png)
+
+If you add another recipient whose key is not available, the encryption icon will turn red. Invalid
+recipients for encryption are indicated by a red marker in the corner.
+
+![Encryption Not Possible](img/sending_encryption_not_possible.png)
+
+If the icon is not present at all, try deleting any recipients that do not have a key.
+
+For more information, including on how to set up encryption at first, see [PGP/MIME](../security/pgpmime.md)
