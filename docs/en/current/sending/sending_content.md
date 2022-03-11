@@ -13,7 +13,7 @@ You can change the account or [identity](../settings/account.md#manage-identitie
 new email will be sent by tapping the email address.
 
 You can set a 'Reply-To' header by tapping the drop-down on the right of the From address. Most recipient
-mail clients will use email address when replying to your email, instead of the From address.
+mail clients will use this email address when replying to your email, instead of the From address.
 
 ## To address
 
