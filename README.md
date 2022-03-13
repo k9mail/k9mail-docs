@@ -35,5 +35,7 @@ To take a screenshot use the camera icon on the right of the emulator screen.
 
 ![](readme_images/screenshot_icon.png)
 
-The screenshot will be saved in a default location, which can be found in the settings (click
+Newer version of Android Studio prompt you for a location to save.
+
+Otherwise the screenshot will be saved in a default location, which can be found in the settings (click
 the botton "..." icon, then "Settings" -> "Screenshot Save Location")
