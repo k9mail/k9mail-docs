@@ -1,30 +1,31 @@
-# Global Settings 
+# General Settings 
 
-*Global settings* are account-independent settings. Most of them define how the user interface should look like.
+*General settings* are account-independent settings. Most of them define how the user interface looks.
 
-![Global Settings menu](img/settings_global.png)
+![General Settings menu](img/settings_general.png)
 
 ## Display
-The Display settings provide a lot of flexibility to control the global appearance of the app, as well as each of the 
+The Display settings control the general appearance of the app, as well as each of the 
 main views, such as the account list, message lists and message display.
 
 ### Global 
 
 #### Language
-By default K-9 Mail will display the user interface in the language you're using for your Android system. With this 
+By default K-9 Mail displays the user interface in the language you're using for your Android system. With this 
 setting you can override the system language, e.g. if your Android version doesn't support your native language but 
 K-9 Mail does.
 
 #### Theme
 Available themes:
 
-* Light (default)
+* Light
 * Dark
+* Use system default
 
 #### Fixed message theme
 When using the dark theme messages can look wrong. This is why K-9 Mail allows you to override the app theme.
 
-Enabling this setting will always use the theme configured in *Message view theme* below for the message view.
+Enabling this setting means K-9 always uses the theme configured in *Message view theme* below for the message view.
 Not using a fixed message theme means you can select a theme in the menu of the message view.
 
 #### Message view theme
@@ -46,27 +47,69 @@ Available settings:
 * Use app theme (default)
 
 #### Font size
+
 K-9 allows you to configure the font-size for various sections of the app.
 
+The "Message body" slider is a percentage, default 100%.
+
 #### Animation
-Here you can configure whether or not K-9 Mail will use animations. Currently this is only affects the animation when 
-switching from the message list to the message view and back.
+
+Currently this only affects the animation when switching from the message list to the message view and back.
 
 ### Account List
 
-#### Show account size
-This setting controls whether or not the account size is displayed in the list of accounts. Disabling it can speed up 
-the display a bit.
+#### Show Unified Inbox
 
-#### Count search results
-Unchecking this will disable counting the number of unread and starred messages in the special accounts 
-(*Unified Inbox* and *All messages*).
+This shows the Unified Inbox as the first item in the main application drawer. (Enabled by default)
 
-#### Hide special accounts
-Here you can disable the special accounts *Unified Inbox* and *All messages*.
+#### Show starred count
 
-**Note:** As of K-9 Mail v4.802, third-party applications can only access information about messages in the 
-*Unified Inbox*. So disabling this can lead to those apps no longer working properly.
+Each folder and account always shows the count of unread messages. This option shows also the count of starred messages.
+
+### Message lists
+
+#### Preview Lines
+
+Configures how many lines of each message to show when previewing them in a list. More preview lines mean
+fewer messages can be shown at any one time.
+
+#### Show stars
+
+If you do not "star" messages you can disable the icon here to save space.
+
+#### Show correspondent names
+
+Show the sender's name from the email headers rather than the email address.
+
+#### Correspondent above subject
+
+Self-explanatory.
+
+#### Show contact names
+
+If contacts are found in Android's address book, choosing this option means K-9 shows the name from there instead
+of from the email itself.
+
+#### Colorize contacts
+
+Show contacts that you already know in a different color. Only available when "Show contact names", above, is selected.
+
+#### Contact name color
+
+Choice of colour for the above option "Colorize contacts".
+
+#### Show contact pictures
+
+Disable this if you don't want to display contact pictures (or place holder images) in the message list.
+
+#### Colorize missing contact pictures
+
+If a contact does not have a picture, K-9 will create a "random" color for the contact based on their email address
+that will remain constant. If this is disabled the images will be displayed with a grey background.
+
+#### Change colour when read
+
+Self-explanatory.
 
 ### Folder lists
 
@@ -82,32 +125,8 @@ Here you can specify how many lines of preview of a message you want to see in t
 **Note:** If you set preview lines to *0* and disable contact pictures (see below) you get a special single line 
 message list view.
 
-#### Show stars
-With this you can disable the star icon that is used to indicate flagged messages.
-
 #### Multi-select checkboxes
 Enable this to always show the checkboxes to select a message.
-
-#### Show correspondent names
-Disable this to display email addresses instead of correspondent names.
-
-#### Correspondent above subject
-Show correspondent names above the subject line, rather than below it.
-
-#### Show contact names
-Show correspondent names from Contacts when available.
-
-#### Colorize contacs
-Here you can select the color to use for correspondent names from your Contacts. All other correspondents will be 
-displayed in the default color.
-
-#### Show contact pictures
-Disable this if you don't want to display contact pictures (or place holder images) in the message list.
-
-#### Colorize contact pictures
-If this is checked the place holder images for correspondents with missing contact pictures or ones not in your 
-Contacts will be displayed in different colors.
-If this is disabled the images will be displayed with a grey background.
 
 #### Dim messages after reading
 Disabling this will display read and unread messages using the same background color in the message list. Then bold 
@@ -224,7 +243,7 @@ Available settings are:
 * Never (This disables mail checking for all accounts regardless of the account settings)
 
 'Auto-sync' is an Android-wide setting that controls accounts that link into the phone. Currently K-9 email accounts do 
-not function in this way. However setting this will make the app reflect the global auto-sync setting.
+not function in this way. However setting this will make the app reflect the general auto-sync setting.
 
 The configuration of Android's Auto-sync setting may vary depending on your phone's Android version and device 
 manufacturer. On stock Android it's found under: "Settings -> Users & accounts -> Automatically sync data"

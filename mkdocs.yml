@@ -25,7 +25,7 @@ nav:
     - Editing E-mail Content: en/current/sending/sending_content.md
   - Settings:
     - Settings Overview: en/current/settings/overview.md
-    - Global settings: en/current/settings/global.md
+    - General settings: en/current/settings/general.md
     - Account settings: en/current/settings/account.md
     - Folder settings: en/current/settings/folder.md
     - Import/Export settings: en/current/settings/import_export.md
