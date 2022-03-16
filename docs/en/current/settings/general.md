@@ -79,20 +79,23 @@ If you do not "star" messages you can disable the icon here to save space.
 
 #### Show correspondent names
 
-Show the sender's name from the email headers rather than the email address.
+Disable this to display email addresses instead of correspondent names.
 
 #### Correspondent above subject
 
-Self-explanatory.
+Show correspondent names above the subject line, rather than below it.
 
 #### Show contact names
 
-If contacts are found in Android's address book, choosing this option means K-9 shows the name from there instead
+If contacts are found in Android's Contacts, enabling this means that K-9 shows the name from there instead
 of from the email itself.
 
 #### Colorize contacts
 
-Show contacts that you already know in a different color. Only available when "Show contact names", above, is selected.
+Here you can select the color to use for correspondent names from your Contacts. All other correspondents will be
+displayed in the default color. 
+
+Only available when "Show contact names", above, is selected.
 
 #### Contact name color
 
@@ -104,8 +107,9 @@ Disable this if you don't want to display contact pictures (or place holder imag
 
 #### Colorize missing contact pictures
 
-If a contact does not have a picture, K-9 will create a "random" color for the contact based on their email address
-that will remain constant. If this is disabled the images will be displayed with a grey background.
+If this is checked the place holder images for correspondents with missing contact pictures or ones not in your
+Contacts will be displayed in different colors.
+If this is disabled the images will be displayed with a grey background.
 
 #### Change colour when read
 
