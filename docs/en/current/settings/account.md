@@ -1,25 +1,23 @@
 # Account Settings
 
 Many of the settings in K-9 Mail can be customized for each account, and are therefore located under *Account Settings*.
-To open them:
 
-* If you're in the account list view, long-tap the account you want to configure, then select *Account settings*.
-* If you're in a folder list or message list, open the menu, select *Settings*, then *Account settings* to get to the 
-settings for the current account.
+From Settings, each account's settings can be reached from the account list by tapping the account name:
+
+![Account Settings List](img/account_settings_list.png)
+
+(The = sign on the right of each account lets you drag the account up or down to change the display order.)
+
+![Account Settings Top](img/account_settings_top.png)
 
 ## General Settings
 
 ### Account name
 Here you can specify the name of the account that is displayed in the account list screen.
 
-### Default account
-Check this setting to make this the default account. It will be used whenever you send a message and don't specify an 
-account, e.g. when taping the *Compose* icon in the account list screen or sending a message from another app.
-
 ### Account color
-Here you can select the color that is used to indicate that a particular message or folder is belonging to the selected 
+Here you can select the color that is used to indicate that a particular message (or folder) belongs to the selected 
 account.
-
 
 ## Reading mail
 
@@ -64,7 +62,7 @@ Set a limit on how much of a message is downloaded during synchronization. When 
 you will see a button saying *Download complete message* that allows you to download the rest of the message.
 
 ### Folder poll frequency
-Control the poll frequency from never up to 24 hours.
+Control the poll frequency from "never" (do not poll at all), up to 24 hours.
 
 ### Poll folders
 Control whether to poll all, 1st Class, 2nd Class or no folders at all.
@@ -81,6 +79,10 @@ To learn more about this, read the page [Folders](folders.md).
 ### Sync server deletions
 By default K-9 Mail removes downloaded messages from the device if the message has been deleted from the server. If you 
 uncheck this setting K-9 Mail will keep the downloaded messages.
+
+### Mark as read when delete
+
+Self-explanatory.
 
 ### When I delete a message
 You can control what happens when you delete a message using K-9 Mail.
@@ -127,6 +129,9 @@ configured to be checked via Push.
 
 #### Refresh IDLE connection
 
+This controls how often K-9 refreshes the IDLE connection used in Push. In theory this should never
+be necessary but sometimes networks break the connection, causing you to miss notifications. 
+Lowering the value here will mitigate that problem, at the cost of reduced battery life.
 
 ## Sending mail
 These settings control everything related to sending mail.
