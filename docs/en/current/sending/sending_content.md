@@ -13,7 +13,7 @@ You can change the account or [identity](../settings/account.md#manage-identitie
 new email will be sent by tapping the email address.
 
 You can set a 'Reply-To' header by tapping the drop-down on the right of the From address. Most recipient
-mail clients will use email address when replying to your email, instead of the From address.
+mail clients will use this email address when replying to your email, instead of the From address.
 
 ## To address
 
@@ -90,3 +90,26 @@ Do not rely on read receipts, because:
 * The read receipt is itself an email, which could be lost.
 
 > K-9 does not send Read Receipts in the other direction, i.e. when receiving emails that request a read receipt.
+
+## Encryption
+
+If the recipient's key is available, the padlock icon will be shown next to the contact name:
+
+![Encryption](img/sending_encryption.png)
+
+Once you've added all recipients, to encrypt (and sign) the email, tap the padlock icon.
+
+![Enable Encryption](img/sending_encryption_enable.png)
+
+The icon will change to green to indicate encryption will be enabled for this message.
+
+![Encryption OK](img/sending_encryption_ok.png)
+
+If you add another recipient whose key is not available, the encryption icon will turn red. Invalid
+recipients for encryption are indicated by a red marker in the corner.
+
+![Encryption Not Possible](img/sending_encryption_not_possible.png)
+
+If the icon is not present at all, try deleting any recipients that do not have a key.
+
+For more information, including on how to set up encryption at first, see [PGP/MIME](../security/pgpmime.md)

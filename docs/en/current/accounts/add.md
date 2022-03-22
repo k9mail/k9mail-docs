@@ -2,7 +2,7 @@
 The account set-up wizard will launch automatically after the [Welcome Screen](../setup/welcome.md). 
 
 For any additional accounts they can be added by going to the accounts menu, 
-and then tapping the 'Add account' option in the overflow menu.
+and then tapping the "Add account" option in the overflow menu.
 
 First you are asked for your email address and password.
 
