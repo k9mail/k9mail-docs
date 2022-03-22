@@ -80,7 +80,7 @@ To learn more about this, read the page [Folders](folders.md).
 By default K-9 Mail removes downloaded messages from the device if the message has been deleted from the server. If you 
 uncheck this setting K-9 Mail will keep the downloaded messages.
 
-### Mark as read when delete
+### Mark as read when deleted
 
 Self-explanatory.
 
@@ -169,6 +169,14 @@ Available options are:
 
 ### Manage identities
 Here you can set up alternative identities consisting of name, email address, *Reply-to* address, and signature.
+
+At first it will show a list with the single "initial identity".
+
+![Identities Menu](img/identities_menu.png)
+
+Use the menu in the top right to add another:
+
+![Identities Add](img/identities_add.png)
 
 #### Add an identity
 Select *New identity* from the menu to create a new identity.
