@@ -28,11 +28,11 @@ you have to press the *Show pictures* button first.
 Available options:
 
 * No (Always display the *Show pictures* button)
-* From contacts (when the sender is in your Contacts)
+* From contacts (Display images automatically if the sender is in your Contacts)
 * From anyone (Never display the *Show pictures* button)
 
 ### Mark as read when opened
-Uncheck this to not mark messages as read when you open them. 
+Check this to mark messages as read when you open them (the default). 
 
 Independent of what you select here, you can always select *Mark as read* or *Mark unread* from the menu when viewing a 
 message.
@@ -48,7 +48,7 @@ will be deleted from the device (but not from the server).
 This is no hard limit and you can download more messages by pressing *Load up to XX more* at the end of the message list.
 
 ### Sync messages from
-If you set this to anything other than *any time (no limit)* K-9 Mail will only download messages that are younger than 
+If you set this to anything other than *any time (no limit)*, K-9 Mail will only download messages that are newer than 
 a certain time span. During synchronization K-9 Mail will remove previously downloaded messages that fall outside that 
 range from the device (but not the server).
 
@@ -118,7 +118,7 @@ K-9 Mail supports some advanced settings for IMAP accounts. If you're not famili
 protocol you shouldn't change any of these settings. 
 
 #### Poll when connecting for push
-When this is enabled K-9 Mail will do a full folder synchronization after establishing a Push connection. Otherwise it 
+When this is enabled, K-9 Mail will do a full folder synchronization after establishing a Push connection. Otherwise it 
 will only download new messages.
 
 #### Max folders to check with push
@@ -211,7 +211,7 @@ following options:
 * Prefix (like Gmail) - The quoted text appears below a one line header in the format 
   `Sender's Name <user@domain.TLD> wrote:`.  
   With the prefix option selected 2 additional options are available:
-    * Reply after quoted text - When checked, the original message appears above the reply you type into the message
+    * Reply after quoted text - When enabled, the original message appears above the reply you type into the message
       text box.
     * Quoted text prefix - Defines the character(s) that precedes each line of quoted text. The default is '>'. 
 * Header (like Outlook) - The quoted text appears below a header that includes the Original Sender,
@@ -223,7 +223,7 @@ include the original message by clicking the *Quote message* button in the messa
 a message.
 
 ### Strip signatures on reply
-When this is checked K-9 Mail will try to detect the correspondent's signature and remove it when quoting the original 
+When this is enabled, K-9 Mail will try to detect the correspondent's signature and remove it when quoting the original 
 message.
 
 ### Upload sent messages
@@ -357,10 +357,10 @@ Here you can select the color the notification LED should blink in.
 **Note:** Not all devices allow you to specify arbitrary colors.
 
 ### Sync notifications
-If this is checked K-9 Mail will display a notification in the status bar as long as it is checking for new mail.
+If this is enabled, K-9 Mail will display a notification in the status bar as long as it is checking for new mail.
 
 ### Notification opens unread messages
-When this is enabled and there is more than one new message, K-9 Mail will display a message list containing all 
+When this is enabled, and there is more than one new message, K-9 Mail will display a message list containing all 
 unread messages in this account (except those in the *Trash*, *Drafts*, *Spam*, *Outbox*, and *Sent* folders).
 
 
