@@ -239,12 +239,12 @@ settings.
 ## Folders
 
 ### Auto-expand folder
-The folder you specify here will be opened when you click on an account in the account list. Set to *-NONE-* when 
+The folder you specify here will be opened when you click on an account in the account list. Set to *NONE* when 
 clicking an account should open the folder list.
 
 ### Folders to display
 Here you can specify what folder classes should be displayed in the folder list. This can also be changed from the 
-*Show folders...* sub-menu in the folder list.
+*Show folders...* sub-menu in the Manage Folders settings.
 
 Available options are:
 
@@ -285,18 +285,18 @@ Selecting *-NONE-* disables the archive functionality for this account.
 **Note:** This setting is not available for POP3 accounts.
 
 ### Drafts folder
-This specifies which folder is used to save message drafts. Select *-NONE-* to disable saving drafts.
+This specifies which folder is used to save message drafts. Select *NONE* to disable saving drafts.
 
 **Note:** This setting is not available for POP3 accounts.
 
 ### Sent folder
-A copy of sent messages is uploaded to this folder. Select *-NONE-* to disable this functionality. Please note that 
+A copy of sent messages is uploaded to this folder. Select *NONE* to disable this functionality. Please note that 
 your mail server might save a copy of outgoing messages regardless.
 
 **Note:** This setting is not available for POP3 accounts.
 
 ### Spam folder
-Here you can designate a spam folder. Messages will be moved there when the *Spam* action is used. Selecting *-NONE-* 
+Here you can designate a spam folder. Messages will be moved there when the *Spam* action is used. Selecting *NONE* 
 disables this functionality.
 
 Please note that K-9 Mail does not have a spam filter included. Moving messages to a special spam folder will often 
@@ -310,13 +310,6 @@ Messages you delete in K-9 Mail are moved to the folder you specify here. If you
 messages instead of moving them to a trash folder.
 
 **Note:** This setting is not available for POP3 accounts.
-
-
-## Storage
-### Storage location
-This setting lets you choose whether to store email for the selected account using internal storage or external 
-storage (SD card).
-
 
 ## Notifications
 Here you can specify whether and how you want to be notified of certain events.
@@ -376,14 +369,6 @@ In this section you can enable and configure the behavior of server-side search.
 
 **Note:** This is only available for IMAP accounts.
 
-### Enable server search
-Enable this setting to be able to search messages on the server.
-
-Right now K-9 Mail only allows you to perform a remote search after doing a local search in a folder, i.e. starting a 
-search from the folder list or the account list won't let you search the server.
-
-**Note:** Currently only the subject and sender of remote messages are searched.
-
 ### Server search limit
 Here you can specify how many search results are downloaded.
 
@@ -392,13 +377,12 @@ is opened for viewing.
 
 Available options are: 10, 25, 50, 100, 250, 500, 1000, All.
 
+## End-to-end encryption
 
-## Cryptography
-This section allows you to select a crypto provider that allows you to encrypt/decrypt and sign/verify messages using 
+This section allows you to select a cryptography provider that allows you to encrypt and decrypt messages using 
 the OpenPGP standard.
 
-**Note:** Currently only [APG](https://play.google.com/store/apps/details?id=org.thialfihar.android.apg) (Android 
-  Privacy Guard) and [OpenKeychain](https://www.openkeychain.org/) are supported as a crypto provider. Check the 
+**Note:** Currently only [OpenKeychain](https://www.openkeychain.org/) is supported as a crypto provider. Check the 
   [PGP/MIME](../security/pgpmime.md) section for details on how to use it.
 
 ### OpenPGP Provider
