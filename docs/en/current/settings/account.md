@@ -178,9 +178,6 @@ Use the menu in the top right to add another:
 
 ![Identities Add](img/identities_add.png)
 
-#### Add an identity
-Select *New identity* from the menu to create a new identity.
-
 #### Delete an identity
 Long-press the name of an identity in the list of identities, then select *Remove*.
 
@@ -205,21 +202,19 @@ Enabling this will always show the text fields to specify CC and BCC recipients 
 ### Read receipt
 Checking this requests a read receipt for all outgoing messages.
 
-**Note:** This is adding a special header asking the recipient's email client to confirm that the message was received. 
-Some clients (like K-9 Mail) do not support sending answers to this request. Others ask the user for confirmation 
-before sending an answer. So not receiving a read receipt is not a reliable indicator that a message hasn't been read.
+See [Editing E-mail Content/Read Receipt](../sending/sending_content.md#read-receipt) for more information.
 
 ### Reply quoting style
 Defines your preference for the format in which the quoted text of the message you are replying to will appear from the 
 following options:
 
-* Prefix (like Gmail, Pine) - The quoted text appears below a one line header in the format 
+* Prefix (like Gmail) - The quoted text appears below a one line header in the format 
   `Sender's Name <user@domain.TLD> wrote:`.  
-  With the prefix option selected 2 additional options will be available:
-    * Reply after quoted text - When checked, the original message will appear above the reply you type into the message
+  With the prefix option selected 2 additional options are available:
+    * Reply after quoted text - When checked, the original message appears above the reply you type into the message
       text box.
-    * Quoted text prefix - Defines the character(s) that will precede each line of quoted text. The default is '>'. 
-* Header (like Outlook, Yahoo!, and Hotmail) - The quoted text appears below a header that includes the Original Sender,
+    * Quoted text prefix - Defines the character(s) that precedes each line of quoted text. The default is '>'. 
+* Header (like Outlook) - The quoted text appears below a header that includes the Original Sender,
   Recipients, Time, and Subject from the original email's message header fields.
 
 ### Quote message when replying
@@ -228,12 +223,16 @@ include the original message by clicking the *Quote message* button in the messa
 a message.
 
 ### Strip signatures on reply
-When this is checked K-9 Mail will try to detect the correspondents signature and remove it when quoting the original 
+When this is checked K-9 Mail will try to detect the correspondent's signature and remove it when quoting the original 
 message.
+
+### Upload sent messages
+
+Upload sent messages to your account's Sent folder if the send was successful.
 
 ### Outgoing server
 
-Please see [Configuring the outgoing server](../accounts/add.md#configuring-the-outgoing-server) for the available 
+Please see [Configuring the outgoing server](../accounts/outgoing.md#configuring-the-outgoing-server) for the available 
 settings.
 
 
