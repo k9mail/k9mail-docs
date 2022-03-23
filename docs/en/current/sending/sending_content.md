@@ -64,7 +64,8 @@ wait for the loading to complete before sending your message.
 
 ## Saving as draft
 
-K-9 will save your message in the remote Drafts folder if you press the back button and choose 'Safe as Draft'.
+K-9 will save your message in the remote Drafts folder if you press the back button and choose 'Safe as Draft',
+or choose the 'Save as Draft' menu option.
 
 ![Back Draft](img/sending_compose_draft.png)
 
@@ -76,6 +77,19 @@ A draft is also created when you switch away from the K-9 application.
 
 At the bottom of the message text the default signature is shown. This can be changed in
 [Settings/Account Settings/Manage identities/*Identity*/Signature](../settings/account.md#signature).
+
+## Read Receipt
+
+You can give your recipient the choice to send you back a 'read receipt', to indicate that they have read your email.
+Choose the 'Read receipt' menu option.
+
+Do not rely on read receipts, because:
+
+* Not all email clients recognise read receipts.
+* The recipient might decline to send you a read receipt.
+* The read receipt is itself an email, which could be lost.
+
+> K-9 does not send Read Receipts in the other direction, i.e. when receiving emails that request a read receipt.
 
 ## Encryption
 
