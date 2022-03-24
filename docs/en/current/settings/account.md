@@ -239,8 +239,10 @@ settings.
 ## Folders
 
 ### Auto-expand folder
-The folder you specify here will be opened when you click on an account in the account list. Set to *NONE* when 
-clicking an account should open the folder list.
+The folder you specify here will be opened when you select an account in the drawer.
+
+When this option is set to *NONE*, opening an account via the drawer will leave the drawer open
+and display the folder list of that account, allowing you to select a folder.
 
 ### Folders to display
 Here you can specify what folder classes should be displayed in the folder list. This can also be changed from the 
