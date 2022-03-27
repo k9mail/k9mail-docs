@@ -1,25 +1,23 @@
 # Account Settings
 
 Many of the settings in K-9 Mail can be customized for each account, and are therefore located under *Account Settings*.
-To open them:
 
-* If you're in the account list view, long-tap the account you want to configure, then select *Account settings*.
-* If you're in a folder list or message list, open the menu, select *Settings*, then *Account settings* to get to the 
-settings for the current account.
+From Settings, each account's settings can be reached from the account list by tapping the account name:
+
+![Account Settings List](img/account_settings_list.png)
+
+(The = sign on the right of each account lets you drag the account up or down to change the display order.)
+
+![Account Settings Top](img/account_settings_top.png)
 
 ## General Settings
 
 ### Account name
 Here you can specify the name of the account that is displayed in the account list screen.
 
-### Default account
-Check this setting to make this the default account. It will be used whenever you send a message and don't specify an 
-account, e.g. when taping the *Compose* icon in the account list screen or sending a message from another app.
-
 ### Account color
-Here you can select the color that is used to indicate that a particular message or folder is belonging to the selected 
+Here you can select the color that is used to indicate that a particular message (or folder) belongs to the selected 
 account.
-
 
 ## Reading mail
 
@@ -30,11 +28,11 @@ you have to press the *Show pictures* button first.
 Available options:
 
 * No (Always display the *Show pictures* button)
-* From contacts (when the sender is in your Contacts)
+* From contacts (Display images automatically if the sender is in your Contacts)
 * From anyone (Never display the *Show pictures* button)
 
 ### Mark as read when opened
-Uncheck this to not mark messages as read when you open them. 
+Check this to mark messages as read when you open them (the default). 
 
 Independent of what you select here, you can always select *Mark as read* or *Mark unread* from the menu when viewing a 
 message.
@@ -50,7 +48,7 @@ will be deleted from the device (but not from the server).
 This is no hard limit and you can download more messages by pressing *Load up to XX more* at the end of the message list.
 
 ### Sync messages from
-If you set this to anything other than *any time (no limit)* K-9 Mail will only download messages that are younger than 
+If you set this to anything other than *any time (no limit)*, K-9 Mail will only download messages that are newer than 
 a certain time span. During synchronization K-9 Mail will remove previously downloaded messages that fall outside that 
 range from the device (but not the server).
 
@@ -64,7 +62,7 @@ Set a limit on how much of a message is downloaded during synchronization. When 
 you will see a button saying *Download complete message* that allows you to download the rest of the message.
 
 ### Folder poll frequency
-Control the poll frequency from never up to 24 hours.
+Control the poll frequency from "never" (do not poll at all), up to 24 hours.
 
 ### Poll folders
 Control whether to poll all, 1st Class, 2nd Class or no folders at all.
@@ -81,6 +79,10 @@ To learn more about this, read the page [Folders](folders.md).
 ### Sync server deletions
 By default K-9 Mail removes downloaded messages from the device if the message has been deleted from the server. If you 
 uncheck this setting K-9 Mail will keep the downloaded messages.
+
+### Mark as read when deleted
+
+Self-explanatory.
 
 ### When I delete a message
 You can control what happens when you delete a message using K-9 Mail.
@@ -116,7 +118,7 @@ K-9 Mail supports some advanced settings for IMAP accounts. If you're not famili
 protocol you shouldn't change any of these settings. 
 
 #### Poll when connecting for push
-When this is enabled K-9 Mail will do a full folder synchronization after establishing a Push connection. Otherwise it 
+When this is enabled, K-9 Mail will do a full folder synchronization after establishing a Push connection. Otherwise it 
 will only download new messages.
 
 #### Max folders to check with push
@@ -127,6 +129,9 @@ configured to be checked via Push.
 
 #### Refresh IDLE connection
 
+This controls how often K-9 refreshes the IDLE connection used in Push. In theory this should never
+be necessary but sometimes networks break the connection, causing you to miss notifications. 
+Lowering the value here will mitigate that problem, at the cost of reduced battery life.
 
 ## Sending mail
 These settings control everything related to sending mail.
@@ -165,8 +170,13 @@ Available options are:
 ### Manage identities
 Here you can set up alternative identities consisting of name, email address, *Reply-to* address, and signature.
 
-#### Add an identity
-Select *New identity* from the menu to create a new identity.
+At first it will show a list with the single "initial identity".
+
+![Identities Menu](img/identities_menu.png)
+
+Use the menu in the top right to add another:
+
+![Identities Add](img/identities_add.png)
 
 #### Delete an identity
 Long-press the name of an identity in the list of identities, then select *Remove*.
@@ -192,21 +202,19 @@ Enabling this will always show the text fields to specify CC and BCC recipients 
 ### Read receipt
 Checking this requests a read receipt for all outgoing messages.
 
-**Note:** This is adding a special header asking the recipient's email client to confirm that the message was received. 
-Some clients (like K-9 Mail) do not support sending answers to this request. Others ask the user for confirmation 
-before sending an answer. So not receiving a read receipt is not a reliable indicator that a message hasn't been read.
+See [Editing E-mail Content/Read Receipt](../sending/sending_content.md#read-receipt) for more information.
 
 ### Reply quoting style
 Defines your preference for the format in which the quoted text of the message you are replying to will appear from the 
 following options:
 
-* Prefix (like Gmail, Pine) - The quoted text appears below a one line header in the format 
+* Prefix (like Gmail) - The quoted text appears below a one line header in the format 
   `Sender's Name <user@domain.TLD> wrote:`.  
-  With the prefix option selected 2 additional options will be available:
-    * Reply after quoted text - When checked, the original message will appear above the reply you type into the message
+  With the prefix option selected 2 additional options are available:
+    * Reply after quoted text - When enabled, the original message appears above the reply you type into the message
       text box.
-    * Quoted text prefix - Defines the character(s) that will precede each line of quoted text. The default is '>'. 
-* Header (like Outlook, Yahoo!, and Hotmail) - The quoted text appears below a header that includes the Original Sender,
+    * Quoted text prefix - Defines the character(s) that precedes each line of quoted text. The default is '>'. 
+* Header (like Outlook) - The quoted text appears below a header that includes the Original Sender,
   Recipients, Time, and Subject from the original email's message header fields.
 
 ### Quote message when replying
@@ -215,24 +223,30 @@ include the original message by clicking the *Quote message* button in the messa
 a message.
 
 ### Strip signatures on reply
-When this is checked K-9 Mail will try to detect the correspondents signature and remove it when quoting the original 
+When this is enabled, K-9 Mail will try to detect the correspondent's signature and remove it when quoting the original 
 message.
+
+### Upload sent messages
+
+Upload sent messages to your account's Sent folder if the send was successful.
 
 ### Outgoing server
 
-Please see [Configuring the outgoing server](../accounts/add.md#configuring-the-outgoing-server) for the available 
+Please see [Configuring the outgoing server](../accounts/outgoing.md#configuring-the-outgoing-server) for the available 
 settings.
 
 
 ## Folders
 
 ### Auto-expand folder
-The folder you specify here will be opened when you click on an account in the account list. Set to *-NONE-* when 
-clicking an account should open the folder list.
+The folder you specify here will be opened when you select an account in the drawer.
+
+When this option is set to *NONE*, opening an account via the drawer will leave the drawer open
+and display the folder list of that account, allowing you to select a folder.
 
 ### Folders to display
 Here you can specify what folder classes should be displayed in the folder list. This can also be changed from the 
-*Show folders...* sub-menu in the folder list.
+*Show folders...* sub-menu in the Manage Folders settings.
 
 Available options are:
 
@@ -273,18 +287,18 @@ Selecting *-NONE-* disables the archive functionality for this account.
 **Note:** This setting is not available for POP3 accounts.
 
 ### Drafts folder
-This specifies which folder is used to save message drafts. Select *-NONE-* to disable saving drafts.
+This specifies which folder is used to save message drafts. Select *NONE* to disable saving drafts.
 
 **Note:** This setting is not available for POP3 accounts.
 
 ### Sent folder
-A copy of sent messages is uploaded to this folder. Select *-NONE-* to disable this functionality. Please note that 
+A copy of sent messages is uploaded to this folder. Select *NONE* to disable this functionality. Please note that 
 your mail server might save a copy of outgoing messages regardless.
 
 **Note:** This setting is not available for POP3 accounts.
 
 ### Spam folder
-Here you can designate a spam folder. Messages will be moved there when the *Spam* action is used. Selecting *-NONE-* 
+Here you can designate a spam folder. Messages will be moved there when the *Spam* action is used. Selecting *NONE* 
 disables this functionality.
 
 Please note that K-9 Mail does not have a spam filter included. Moving messages to a special spam folder will often 
@@ -298,13 +312,6 @@ Messages you delete in K-9 Mail are moved to the folder you specify here. If you
 messages instead of moving them to a trash folder.
 
 **Note:** This setting is not available for POP3 accounts.
-
-
-## Storage
-### Storage location
-This setting lets you choose whether to store email for the selected account using internal storage or external 
-storage (SD card).
-
 
 ## Notifications
 Here you can specify whether and how you want to be notified of certain events.
@@ -352,10 +359,10 @@ Here you can select the color the notification LED should blink in.
 **Note:** Not all devices allow you to specify arbitrary colors.
 
 ### Sync notifications
-If this is checked K-9 Mail will display a notification in the status bar as long as it is checking for new mail.
+If this is enabled, K-9 Mail will display a notification in the status bar as long as it is checking for new mail.
 
 ### Notification opens unread messages
-When this is enabled and there is more than one new message, K-9 Mail will display a message list containing all 
+When this is enabled, and there is more than one new message, K-9 Mail will display a message list containing all 
 unread messages in this account (except those in the *Trash*, *Drafts*, *Spam*, *Outbox*, and *Sent* folders).
 
 
@@ -363,14 +370,6 @@ unread messages in this account (except those in the *Trash*, *Drafts*, *Spam*, 
 In this section you can enable and configure the behavior of server-side search.
 
 **Note:** This is only available for IMAP accounts.
-
-### Enable server search
-Enable this setting to be able to search messages on the server.
-
-Right now K-9 Mail only allows you to perform a remote search after doing a local search in a folder, i.e. starting a 
-search from the folder list or the account list won't let you search the server.
-
-**Note:** Currently only the subject and sender of remote messages are searched.
 
 ### Server search limit
 Here you can specify how many search results are downloaded.
@@ -380,13 +379,12 @@ is opened for viewing.
 
 Available options are: 10, 25, 50, 100, 250, 500, 1000, All.
 
+## End-to-end encryption
 
-## Cryptography
-This section allows you to select a crypto provider that allows you to encrypt/decrypt and sign/verify messages using 
+This section allows you to select a cryptography provider that allows you to encrypt and decrypt messages using 
 the OpenPGP standard.
 
-**Note:** Currently only [APG](https://play.google.com/store/apps/details?id=org.thialfihar.android.apg) (Android 
-  Privacy Guard) and [OpenKeychain](https://www.openkeychain.org/) are supported as a crypto provider. Check the 
+**Note:** Currently only [OpenKeychain](https://www.openkeychain.org/) is supported as a crypto provider. Check the 
   [PGP/MIME](../security/pgpmime.md) section for details on how to use it.
 
 ### OpenPGP Provider

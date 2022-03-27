@@ -5,7 +5,7 @@
 ![General Settings menu](img/settings_general.png)
 
 ## Display
-The Display settings control the general appearance of the app, as well as each of the 
+The Display settings control the global appearance of the app, as well as each of the 
 main views, such as the account list, message lists and message display.
 
 ### Global 
