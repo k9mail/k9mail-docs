@@ -1,29 +1,20 @@
-# Import/Export Settings 
+# Export Settings 
 
 K-9 provides the ability to import and export your settings. This is useful when changing/adding a device.
 
-The settings are exported as a file, stored in external storage in the directory `com.fsck.k9`, e.g. 
-`/storage/sdcard/com.fsck.k9/settings.k9s`.
+The settings are exported as a file, stored in a location of your choice on the device.
+
 You can now move this file to a new device or just keep it there when you uninstall and then re-install K-9 Mail on the
-same device. They do not contain your password.
+same device. The settings file does not contain any of your passwords.
 
-To export your settings tap the bottom action bar's overflow menu on the accounts page, then 
-"Export settings and accounts".
+To export your settings, go to Settings -> Backup -> Export settings
 
-![Accounts Menu](img/accounts_menu.png)
 ![Import/Export Menu](img/settings_import_export_menu.png)
 
-Assuming the export is successful they will be stored in the K9 folder. This can then be e-mailed or otherwise 
-transferred.
+By default you will export all your settings, including all account-specific settings. If you want to
+export only the settings for a particular account, deselect the other accounts.
 
-Similarly, tapping "Import settings" allows you to import your settings. The settings are split into sections, allow 
-you to import the section you want.
+![Import/Export Menu](img/settings_export_select_accounts.png)
 
-![Export Success](img/settings_export_success.png)
-![Import Selection](img/settings_import_selection.png)
+The "Export" button will prompt you for a location in which to save the settings file. 
 
-When the import is complete you will be asked to provide the passwords to all the accounts you just imported. You can 
-defer the account activation by pressing "Cancel", but you won't be able to use the account until you provide a 
-password.
-
-![Import Selection](img/settings_import_activate_account.png)

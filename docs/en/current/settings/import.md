@@ -1,22 +1,10 @@
-# Export Settings 
+# Import Settings 
 
-K-9 provides the ability to import and export your settings. This is useful when changing/adding a device.
+To import your previous settings file, go to Settings -> Backup -> Import settings
 
-The settings are exported as a file, stored in external storage in the directory `com.fsck.k9`, e.g. 
-`/storage/sdcard/com.fsck.k9/settings.k9s`.
-You can now move this file to a new device or just keep it there when you uninstall and then re-install K-9 Mail on the
-same device. They do not contain your password.
-
-To export your settings tap the bottom action bar's overflow menu on the accounts page, then 
-"Export settings and accounts".
-
-![Accounts Menu](img/accounts_menu.png)
 ![Import/Export Menu](img/settings_import_export_menu.png)
 
-Assuming the export is successful they will be stored in the K9 folder. This can then be e-mailed or otherwise 
-transferred.
-
-Similarly, tapping "Import settings" allows you to import your settings. The settings are split into sections, allow 
+The settings are split into sections, allow 
 you to import the section you want.
 
 ![Export Success](img/settings_export_success.png)
