@@ -18,3 +18,5 @@ export only the settings for a particular account, deselect the other accounts.
 
 The "Export" button will prompt you for a location in which to save the settings file. 
 
+Once saved to the file system, you can use the "Share" button to, for example, copy the settings file
+to Google Drive, or email it as an attachment.
