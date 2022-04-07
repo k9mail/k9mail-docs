@@ -203,13 +203,22 @@ K-9 Mail supports deleting messages directly from a notification.
 
 The available settings are:
 
-* Never (default)
+* Never
 * For single message notifications
-* Always
+* Always (default)
 
 ### Lock Screen Notifications
 
-For privacy you can customize the notifications when the screen is locked to show less information.
+Here you can configure how notifications for new messages are displayed when the device is locked.
+
+The available options are:
+
+* No lock screen notifications
+* Application name
+* New message count (default)
+* Message count and senders
+* Same as when screen unlocked
+
 
 ## Network
 
