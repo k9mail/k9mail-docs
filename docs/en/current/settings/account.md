@@ -317,54 +317,69 @@ messages instead of moving them to a trash folder.
 Here you can specify whether and how you want to be notified of certain events.
 
 ### New mail notifications
-Enable this if you want K-9 Mail to create a notification each time a new (unread) message is downloaded.
+Enable this if you want K-9 Mail to notify you when new (unread) messages have been downloaded.
+
+### Notification folders
+K-9 Mail will only create notifications for messages in folders whose 
+[notification class](../folder/#folder-notification-class) matches this setting.
 
 ### Include outgoing mail
 If this is unchecked K-9 Mail will not create notifications for downloaded messages that were sent by an address from 
 one of your configured identities.
 
+### Contacts only
+Check this to limit notifications to messages from known contacts.
+
+### Ignore chat messages
+If you're using an email chat app like [Delta Chat](https://delta.chat/), you probably want to disable notifications 
+for chat messages. Otherwise you might end up with notifications for the same message from both apps.
+
 ### New mail ringtone
-Specify the ringtone for the notification.
+Select a notification sound.
 
-### Vibrate
-Check this to enable vibration when new mail arrives.
+### Vibration
+Here you can configure a vibration pattern for notifications. There are multiple patterns available. A pattern can 
+be repeated up to 10 times.
 
-**Note:** Even with this setting unchecked a notification can cause a vibration when you configured a ringtone and 
+**Note:** Even with this setting unchecked a notification can cause a vibration when you've configured a ringtone and 
 your device is switched to vibrate. This is controlled by Android, not K-9 Mail.
 
-### Vibrate patterns
-Here you can select a vibration pattern for notifications.
+### Notification light
+Notifications for new messages can blink the notification light in a particular color.
 
-Available options:
+The available options are:
+* Disabled
+* Account color
+* System default color
+* White
+* Red
+* Green
+* Blue
+* Yellow
+* Cyan
+* Magenta
 
-* default (300ms off, 200ms on)
-* pattern 1 (100ms off, 200ms on)
-* pattern 2 (100ms off, 500ms on)
-* pattern 3 (200ms off, 200ms on)
-* pattern 4 (200ms off, 500ms on)
-* pattern 5 (500ms off, 500ms on)
-
-### Repeat vibration
-This setting specifies how often the vibration pattern is repeated. Available options are 1-10.
-
-### Blink LED
-Check this to blink the LED when new mail arrives.
-
-**Note:** Not all devices have a notification LED. Unfortunately, there is no way for an app to find out if that's the 
+**Note:** Not all devices have a notification light. Unfortunately, there is no way for an app to find out if that's the 
 case. So this setting is always visible, even when you can't use it.
-
-### Notification LED color
-Here you can select the color the notification LED should blink in.
-
-**Note:** Not all devices allow you to specify arbitrary colors.
 
 ### Sync notifications
 If this is enabled, K-9 Mail will display a notification in the status bar as long as it is checking for new mail.
 
-### Notification opens unread messages
-When this is enabled, and there is more than one new message, K-9 Mail will display a message list containing all 
-unread messages in this account (except those in the *Trash*, *Drafts*, *Spam*, *Outbox*, and *Sent* folders).
+### Notification categories
 
+On Android 8 and above a notification needs to belong to a *notification category* that users can individually configure
+or disable entirely.
+
+#### Messages
+This will open the system screen to configure notifications for new messages in this account.
+
+#### Miscellaneous
+This will open the system screen to configure miscellaneous notifications, like error notifications and the 
+sync notification.  
+
+**Note:** You should never disable all notifications in this category. Otherwise you might miss important error
+notifications. If you only want to get rid of sync notifications, use the [*Sync notifications*](#sync-notifications) 
+setting instead.
 
 ## Search
 In this section you can enable and configure the behavior of server-side search.
