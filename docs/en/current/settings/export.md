@@ -2,7 +2,7 @@
 
 K-9 provides the ability to import and export your settings. This is useful when changing/adding a device.
 
-The settings are exported as a file, stored in a location of your choice on the device.
+The settings are exported as a file, stored in a location of your choice.
 
 You can now move this file to a new device or just keep it there when you uninstall and then re-install K-9 Mail on the
 same device. The settings file does not contain any of your passwords.
