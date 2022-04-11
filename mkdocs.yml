@@ -28,7 +28,8 @@ nav:
     - General settings: en/current/settings/general.md
     - Account settings: en/current/settings/account.md
     - Folder settings: en/current/settings/folder.md
-    - Import/Export settings: en/current/settings/import_export.md
+    - Export settings: en/current/settings/export.md
+    - Import settings: en/current/settings/import.md
     - Configuring folders: en/current/settings/folders.md
   - Security:
     - Overview: en/current/security/overview.md
