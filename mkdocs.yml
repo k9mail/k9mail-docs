@@ -45,6 +45,7 @@ extra_css:
   - stylesheets/extra.css
 
 plugins:
+  - search
   - redirects:
       redirect_maps:
         'index.md': 'en/current/index.md'
