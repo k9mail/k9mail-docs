@@ -25,7 +25,7 @@ Multiple emails to the same account are collapsed, stacked into a single notific
 subject. Dragging down on the stacked notification expands the unread emails into separate notifications, which then 
 function as described above.
 
-Tapping on the stacked notification clears it and opens the Inbox for that account.
+Tapping on the stacked notification clears it and either opens the Inbox for that account or displays the Unified Inbox (if enabled).
 
 Tapping on an individual email's notification clears it and opens that email.
 
