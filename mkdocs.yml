@@ -38,7 +38,7 @@ nav:
   - Miscellaneous:
     - Widgets: en/current/misc/widgets.md
     - Debugging: en/current/misc/debugging.md
-    - Frequently asked questions: en/current/misc/faq.md
+    - Frequently asked questions: https://forum.k9mail.app/c/faq/6
 extra_css:
   - stylesheets/extra.css
 
