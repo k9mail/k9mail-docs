@@ -1,4 +1,6 @@
 site_name: K-9 Mail
+repo_url: https://github.com/k9mail/k9mail-docs
+edit_uri: edit/main/docs/
 theme: material
 markdown_extensions:
   - toc
