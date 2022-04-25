@@ -67,12 +67,12 @@ Control the poll frequency from "never" (do not poll at all), up to 24 hours.
 ### Poll folders
 Control whether to poll all, 1st Class, 2nd Class or no folders at all.
 
-To learn more about this, read the page [Folders](folders.md).
+To learn more about this, read the page [Folder classes](folder_classes.md).
 
 ### Push folders
 Control whether to push all, 1st class, 2nd class or no folders.
 
-To learn more about this, read the page [Folders](folders.md).
+To learn more about this, read the page [Folder classes](folder_classes.md).
 
 **Note:** This setting is only available for IMAP accounts, because it's the only account type that supports Push.
 
@@ -248,14 +248,7 @@ and display the folder list of that account, allowing you to select a folder.
 Here you can specify what folder classes should be displayed in the folder list. This can also be changed from the 
 *Show folders...* sub-menu in the Manage Folders settings.
 
-Available options are:
-
-* All
-* Only 1st Class folders
-* 1st and 2nd Class folders
-* All except 2nd Class folders
-
-To learn more about folder classes, read the page [Folders](folders.md).
+For details of this option see [Folder classes](folder_classes.md#display-mode).
 
 ### Move/copy destination folders
 This setting specifies which folders are displayed when you're asked to pick a destination folder for copy and move 
@@ -268,7 +261,7 @@ Available options are:
 * 1st and 2nd Class folders
 * All except 2nd Class folders
 
-To learn more about folder classes, read the page [Folders](folders.md).
+To learn more about folder classes, read the page [Folder classes](folder_classes.md).
 
 ### Folders to search
 Here you specify what folders are searched when you start a search from the folder list or the account list. Searches 
