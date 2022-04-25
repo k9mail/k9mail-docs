@@ -1,32 +1,29 @@
-# Folders
+# Folder Classes
 
-Perhaps most confusing aspect of K-9 is the use of Classes to control the display and synchronization behavior of 
-accounts and folders.  The goal of the Class system is to provide an easy way for a person with a large number of 
+The goal of the Class system is to provide an easy way for a person with a large number of
 folders to accomplish either of these two goals:
 
 * Show only a select few of the available folders
 * Show all **but** a select few of the available folders
 
 We didn't want either use case to require going through nearly all of the folders, setting a parameter on each folder.
-To this end, there are settings to be made on both Account and Folders. If you do not make any Class setting changes, 
-K-9 will display all of your folders, but will not perform automatic synchronization on any of them, until you change 
-the "Email check frequency" in the Account settings.
+To this end, there are settings to be made on both Account and Folders.
+
+If you do not make any Class setting changes, K-9 will display all of your folders, but will only synchronize your inbox folder.
 
 ## Assigning classes
 
 Classes can be used to adjust both the display of your folders and the automatic synchronization. **Only displayed 
 folders will be synchronized, irrespective of the synchronization class settings.**
 
-You can adjust the Account Class settings through the normal Account Settings Activity.  To adjust the folder Class 
-settings, use the new Folder Settings Activity. In the main folder list, long-press a folder. In Android Email, a long 
-press on a folder does nothing. In K-9, it brings up a context menu, providing **Refresh** and **Folder settings**.
-Click **Folder settings** to adjust the Classes to which the folder is assigned.
+You can adjust the Account Class settings through [Account Settings](account.md).  To adjust the folder Class
+settings, use [Folder Settings](folder.md).
 
 ### Folder display class
 
-First is the **Folder display class**  A folder can be assigned to be in *1st Class*, *2nd Class* or *None*. The 
+First is the **Folder display class**.  A folder can be assigned to be in *1st Class*, *2nd Class* or *None*. The
 default is *None*. If you have a lot of folders, and only want to display a few, then assign those few to *1st Class*. 
-If you have a lot of folders, and only want to hide a few, assign those few to *2nd Class*, and leave the multitude set 
+If you have a lot of folders, and only want to hide a few, assign those few to *2nd Class*, and leave the rest set
 to *None*.
 
 ### Folder sync class
@@ -40,12 +37,12 @@ not waste any battery power automatically keeping it in sync.
 
 ## Modes
 
-Now, in order to make use of the folder Class assignment, it is necessary to adjust two settings in the "Account 
-settings": "Folder display mode" and "Folder sync mode".
+To make use of the folder Class assignment, you must adjust two or three settings in the "Account
+settings": "Folders -> Folders to display", and "Fetching mail -> Poll [or Push] Folders".
 
 ### Display mode
 
-**Folder display mode** determines which folders are to be displayed.
+**Folders to display** determines which folders are to be displayed.
 There are four choices:
 
 * **All**: All folders are displayed.
@@ -58,7 +55,11 @@ There are four choices:
 
 ## Sync mode
 
-**Folder sync mode** determines which folders are to be automatically synchronized at the "Email check frequency".
+There are two methods of syncing folders in K-9, see [Sync Types & K-9 Behavior](../reading/reading.md#sync-types-k-9-behavior).
+The relevant menu option to choose the sync mode is called either "Poll folders" or "Push folders", under the
+"Fetching mail" menu.
+
+The below options are applicable to both methods, to determine which folders are to be automatically synchronized.
 
 There are four choices:
 
@@ -68,7 +69,7 @@ There are four choices:
 * **1st and 2nd Class folders**: Only displayed folders that were explicitly set to be either *1st Class* or *2nd Class*
   for their "sync class" are automatically synchronized.
 * **All except 2nd Class folders**: All displayed folders, except those that are selected to be in *2nd Class* for their
-  sync class, are automatically synchronized.
+  "sync class", are automatically synchronized.
 
 ## Examples
 
@@ -128,5 +129,4 @@ but only Carl and Janet are automatically synchronized.
 |**Display mode/class**|*Only 1st Class folders*¹|*2nd Class*|*1st Class*|*1st Class*|*None*|
 |**Sync mode/class**|*Only 1st Class folders*|*Same as display class*|*Same as display class*|*Same as display class*|*Same as display class*|
 
-¹ To easily show the Inbox, and the imaginary other folders I want to sometimes see, just change the Account's **Folder 
-display mode** to *1st and 2nd Class folders*.
+¹ To easily show the Inbox, and the imaginary other folders I want to sometimes see, just change the Account's **Folders to display** to *1st and 2nd Class folders*.

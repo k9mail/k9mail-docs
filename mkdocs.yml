@@ -32,7 +32,7 @@ nav:
     - Folder settings: en/current/settings/folder.md
     - Export settings: en/current/settings/export.md
     - Import settings: en/current/settings/import.md
-    - Configuring folders: en/current/settings/folders.md
+    - Folder classes: en/current/settings/folder_classes.md
   - Security:
     - Overview: en/current/security/overview.md
     - SSL/TLS: en/current/security/ssl.md

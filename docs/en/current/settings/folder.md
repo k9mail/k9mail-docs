@@ -20,7 +20,7 @@ Available options:
 * 1st Class
 * 2nd Class
 
-To learn more about how this setting is used, read the page [Folders](folders.md).
+To learn more about how this setting is used, read the page [Folder classes](folder_classes.md).
 
 ### Folder poll class
 Set the poll class of a folder.
@@ -32,7 +32,7 @@ Available options:
 * 2nd Class
 * Same as display class
 
-To learn more about how this setting is used, read the page [Folders](folders.md).
+To learn more about how this setting is used, read the page [Folder classes](folder_classes.md).
 
 ### Folder push class
 Set the push class of a folder. This setting is only available for IMAP accounts.
@@ -44,7 +44,7 @@ Available options:
 * 2nd Class
 * Same as push class
 
-To learn more about how this setting is used, read the page [Folders](folders.md).
+To learn more about how this setting is used, read the page [Folder classes](folder_classes.md).
 
 ### Folder notification class
 
