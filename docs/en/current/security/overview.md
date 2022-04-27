@@ -10,7 +10,7 @@ You configure TLS in each of the appropriate account setup screens:
 - [IMAP](../accounts/incoming_imap.md#security) or [POP3](../accounts/incoming_pop3.md#security)
 - [SMTP](../accounts/outgoing.md#security)
 
-TLS has a additional feature that allows you to authenticate to a server with a client certificate,
+TLS has an additional feature that allows you to authenticate to a server with a client certificate,
 either instead of, or in addition to, a normal username and password.
 If you have been told you need a client certificate to connect to your mail server,
 you can configure it in the above linked screens.
