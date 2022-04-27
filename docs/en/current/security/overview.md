@@ -35,3 +35,5 @@ wasn't exposed to eavesdroppers somewhere between your phone and the recipient.
 
 End-to-end encryption in K-9 Mail also digitally signs your email, which means a recipient can be
 sure that it was you that sent it, rather than someone pretending to be you.
+
+You can set up PGP by following [these instructions](pgpmime.md).
