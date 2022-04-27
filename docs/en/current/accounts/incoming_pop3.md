@@ -9,6 +9,7 @@ mail server no matter what network you're connected to -- if you provide a name 
 your private network*, that's the only place you'll be able to pick up email. (If you don't understand the preceding, 
 then you probably don't need to worry about it.) Some firewalls can also cause trouble here.
 
+<div id="security"/>
 **Security**: This specifies the cryptographic protocol that should be used when connecting to your IMAP server. 
 Available options are:
 

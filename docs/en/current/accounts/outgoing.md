@@ -17,6 +17,7 @@ pick up incoming mail from a separate one; this is why many of the items below s
 name or IP must be accessible from any network from which you may want to send mail, whether your cellular carrier's
 WAN or a private LAN via Wi-Fi. See below for more details if you have trouble.
 
+<div id="security"/>
 **Security**: This specifies the cryptographic protocol that should be used when connecting to your SMTP server.
 Available options are:
 
