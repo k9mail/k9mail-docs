@@ -35,7 +35,6 @@ nav:
     - Folder classes: en/current/settings/folder_classes.md
   - Security:
     - Overview: en/current/security/overview.md
-    - SSL/TLS: en/current/security/ssl.md
     - PGP/MIME: en/current/security/pgpmime.md
   - Miscellaneous:
     - Widgets: en/current/misc/widgets.md
