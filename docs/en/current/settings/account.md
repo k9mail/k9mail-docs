@@ -314,7 +314,7 @@ Enable this if you want K-9 Mail to notify you when new (unread) messages have b
 
 ### Notification folders
 K-9 Mail will only create notifications for messages in folders whose 
-[notification class](../settings/folder.md#folder-notification-class) matches this setting.
+[notification class](folder.md#folder-notification-class) matches this setting.
 
 ### Include outgoing mail
 If this is unchecked K-9 Mail will not create notifications for downloaded messages that were sent by an address from 
