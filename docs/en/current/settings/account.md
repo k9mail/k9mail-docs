@@ -393,7 +393,7 @@ This section allows you to select a cryptography provider that allows you to enc
 the OpenPGP standard.
 
 **Note:** Currently only [OpenKeychain](https://www.openkeychain.org/) is supported as a crypto provider. Check the 
-  [PGP/MIME](../security/pgpmime.md) section for details on how to use it.
+  [PGP/MIME](../security/pgp.md) section for details on how to use it.
 
 ### OpenPGP Provider
 This allows you to select the crypto provider to use. Right now the only options are *None*, *APG* and *OpenKeychain*
