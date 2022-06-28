@@ -17,7 +17,7 @@ To start using PGP you first need to link OpenKeychain with K-9. To do this:
 
 ![Enable OpenPGP](img/selecting_openpgp.png)
 
-## Selecting a Key
+### Selecting a Key
 
 Now you'll need to select a key. Click the 'Configure end-to-end key' option.
 
@@ -29,7 +29,27 @@ Select either a key you've already imported/created or create a new key:
 
 See the [OpenKeychain](https://www.openkeychain.org/) website for more information on creating and managing keys.
 
-### Signing & Encrypting Mail
+## Sharing your key with others
+
+Before you send someone an end-to-end encrypted email, you need their public key. They also need your public key.
+
+Some ways to exchange public keys include:
+
+ - meeting in-person (the OpenKeychain application has a convenient interface for mutual key exchange)
+ - downloading from the recipient's personal website
+ - relying on the [Web of Trust](https://en.wikipedia.org/wiki/Web_of_trust) whereby you trust somebody else's word that a public key is valid
+ - downloading the key from a [KeyServer](https://www.rossde.com/PGP/pgp_keyserv.html) (but note the warning on that page about needing to verify the authenticity of keys)
+ - using Autocrypt, which includes your key in the header of every email that you send. This is not supported by all mail clients.
+
+K-9 Mail supports the Autocrypt protocol, but it needs to be enabled in the End-to-end encryption settings page:
+
+![Enable autocrypt](img/autocrypt_enable.png)
+
+Tick the box in the popup:
+
+![Autocrypt dialog](img/autocrypt_dialog.png)
+
+## Signing & Encrypting Mail
 
 When composing e-mail after OpenKeychain has been set up, a new padlock icon
 appears in the top right of the composition screen:
@@ -44,7 +64,7 @@ Tapping the icon enables encryption and turns it green:
 
 For more details on this icon, see [Editing Email Content](../sending/sending_content.md#encryption).
 
-### Decrypting & Verifying Signed Mail
+## Decrypting & Verifying Signed Mail
 
 When viewing encrypted mail, once configured, K-9 will automatically use OpenKeychain to try to decrypt it with your
 key and check the signature.
@@ -57,7 +77,7 @@ Tapping on the green lock icon brings up this modal:
 
 ![Signed and Encrypted Email Details](img/pgpmime_trusted.png)
 
-#### Signed but unencrypted emails
+### Signed but unencrypted emails
 
 K-9 only allows you to send mails that are *both* encrypted and signed. Some other mailers
 allow the sender to sign the message, which proves it was sent by them, but without encrypting it.
