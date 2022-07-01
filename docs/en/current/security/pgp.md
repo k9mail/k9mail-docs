@@ -64,6 +64,22 @@ Tapping the icon enables encryption and turns it green:
 
 For more details on this icon, see [Editing Email Content](../sending/sending_content.md#encryption).
 
+### Sending signed but unencrypted emails
+
+K-9 normally sends mails that are *both* encrypted and signed.
+
+You can also sign the message, which proves it was sent by you, but without encrypting it.
+(This is sometimes useful e.g. in public mailing lists)
+Choose the "Enable PGP Sign-Only" option in the menu:
+
+![PGP Sign-Only Menu](img/pgpmime_sign_menu.png)
+
+The lock will add another icon to confirm you are only signing the message:
+
+![PGP Sign-Only Icon](img/pgpmime_signonly_icon.png)
+
+Tapping the icon lets you change back to normal end-to-end encryption mode.
+
 ## Decrypting & Verifying Signed Mail
 
 When viewing encrypted mail, once configured, K-9 will automatically use OpenKeychain to try to decrypt it with your
@@ -77,13 +93,9 @@ Tapping on the green lock icon brings up this modal:
 
 ![Signed and Encrypted Email Details](img/pgpmime_trusted.png)
 
-### Signed but unencrypted emails
+### Receiving signed but unencrypted emails
 
-K-9 only allows you to send mails that are *both* encrypted and signed. Some other mailers
-allow the sender to sign the message, which proves it was sent by them, but without encrypting it.
-(This is sometimes useful e.g. in public mailing lists)
-
-For trusted signed messages K-9 will look like this.
+For such messages K-9 will look like this:
 
 ![Signed Email Screen](img/pgpmime_signed_msg.png)
 
