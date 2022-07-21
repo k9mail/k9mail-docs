@@ -390,18 +390,12 @@ Available options are: 10, 25, 50, 100, 250, 500, 1000, All.
 ## End-to-end encryption
 
 This section allows you to select a cryptography provider that allows you to encrypt and decrypt messages using 
-the OpenPGP standard.
+the OpenPGP standard. Check the [PGP](../security/pgp.md) section for how to set this up for the first time.
 
-**Note:** Currently only [OpenKeychain](https://www.openkeychain.org/) is supported as a crypto provider. Check the 
-  [PGP/MIME](../security/pgp.md) section for details on how to use it.
+### Hide unencrypted signatures
 
-### OpenPGP Provider
-This allows you to select the crypto provider to use. Right now the only options are *None*, *APG* and *OpenKeychain*
+### Encrypt message subjects
 
-### Auto-sign
-Enable this if you want to sign all messages sent with K-9 Mail. You will still be able to override this on a 
-case-by-case basis in the screen to compose a message.
+### Store all drafts unencrypted
 
-### Auto-encrypt
-Enable this if you want to encrypt all messages sent to a contact you have a public key for. You will still be able to 
-override this on a case-by-case basis in the screen to compose a message.
+### Send Autocrypt Setup Message
