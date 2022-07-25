@@ -107,4 +107,4 @@ Tapping on the 'View Signer' option will open the contact in OpenKeychain.
 
 ## Other PGP settings
 
-The other settings on the end-to-end encryption screen are described in [Account Settings](../settings/account.md#end-to-end-encryption)
+The other settings on the end-to-end encryption screen are described in [Account Settings](../settings/account.md#end-to-end-encryption).
