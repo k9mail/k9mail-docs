@@ -112,4 +112,4 @@ recipients for encryption are indicated by a red marker in the corner.
 
 If the icon is not present at all, try deleting any recipients that do not have a key.
 
-For more information, including on how to set up encryption at first, see [PGP](../security/pgp.md)
+For more information, including on how to set up encryption at first, see [PGP](../security/pgp.md).

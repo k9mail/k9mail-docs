@@ -390,18 +390,50 @@ Available options are: 10, 25, 50, 100, 250, 500, 1000, All.
 ## End-to-end encryption
 
 This section allows you to select a cryptography provider that allows you to encrypt and decrypt messages using 
-the OpenPGP standard.
+the OpenPGP standard. Check the [PGP](../security/pgp.md) section for how to set this up for the first time.
 
-**Note:** Currently only [OpenKeychain](https://www.openkeychain.org/) is supported as a crypto provider. Check the 
-  [PGP/MIME](../security/pgp.md) section for details on how to use it.
+### Hide unencrypted signatures
 
-### OpenPGP Provider
-This allows you to select the crypto provider to use. Right now the only options are *None*, *APG* and *OpenKeychain*
+This will show messages that have a valid PGP signature, but are not encrypted, using the same icon
+as for messages that are neither signed nor encrypted:
 
-### Auto-sign
-Enable this if you want to sign all messages sent with K-9 Mail. You will still be able to override this on a 
-case-by-case basis in the screen to compose a message.
+![Unencrypted signatures hidden](img/signed_unencrypted_hide.png)
 
-### Auto-encrypt
-Enable this if you want to encrypt all messages sent to a contact you have a public key for. You will still be able to 
-override this on a case-by-case basis in the screen to compose a message.
+This is useful if you are only concerned about messages that are fully end-to-end-encrypted.
+
+### Encrypt message subjects
+
+For historical reasons, the "Subject:" line of an end-to-end encrypted message is not encrypted.
+
+If you enable the "Encrypt message subjects" setting, K-9 uses a new protocol "Protected Headers for Cryptographic E-mail"
+to encrypt the subject line.
+
+Support for such subject-line encryption is not universal, and some mail clients may instead display the
+dummy "Encrypted Message" subject instead.
+
+### Store all drafts encrypted
+
+If you are drafting an email that you plan to send without end-to-end encryption, 
+encrypting the draft message is not necessary. If the draft is encrypted, it could cause problems
+such as preventing you from finishing the draft on another mail client which doesn't support PGP.
+
+Therefore K-9 Mail only encrypts drafts when you have enabled end-to-end encryption for the message.
+
+There is one scenario in which this might be undesirable:
+
+- you start creating a message
+- you have *not* yet selected a recipient
+- K-9 doesn't know that you intend to encrypt the message
+- K-9 saves the draft without encryption
+- an eavesdropper on the server can read the draft
+
+If you are concerned about this, you can enable this option "Store all drafts encrypted", 
+in which case K-9 always stores drafts with encryption, irrespective of the recipient.
+
+### Send Autocrypt Setup Message
+
+If you have more than one email client that supports Autocrypt, you can send yourself a special email
+- an Autocrypt Setup Message - that will configure your other email client(s) with your PGP keys.
+
+When you tap 'Send Setup Message', K-9 Mail sends an email to your own account. It then displays a setup
+code which your other email client will need in order to use the PGP keys embedded in the email.
