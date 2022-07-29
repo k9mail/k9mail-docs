@@ -37,7 +37,7 @@ To configure which folders belong to the "1st Class folders" group, open the sid
 
 Select the folder you want to configure. Then in the folder settings screen pick *1st Class* from the list of options for the *Folder push class* setting.
 
-![k9mail_push__folder_settings](img/k9mail_push__folder_settings.png) ![k9mail_push__folder_push_class](img/k9mail_push__folder_push_class.png)
+![k9mail_push__folder_settings](img/k9mail_push__folder_settings.jpg) ![k9mail_push__folder_push_class](img/k9mail_push__folder_push_class.png)
 
 Repeat this process for every folder you want to check via Push. But try to keep the number of folders as low as possible. The app has to maintain an open connection for every Push folder. Most servers put a rather low limit on how many open connections per user are allowed. More connections also mean more network traffic and more system resources used on your Android device.
 
@@ -62,7 +62,7 @@ Android requires apps to create the notification. But it allows users to turn of
 The notification does show some status information, e.g. when waiting for network connectivity. If you want to keep the notification but get rid of the icon in the status bar you can "minimize" the notification.
 Long-press the notification in the expanded notification drawer and select the gear icon in the upper right corner. Then tap the *Synchronize (Push)* text (not the switch next to it).
 
-![k9mail_push__notification_long_press_2](img/k9mail_push__notification_long_press_2.png) ![k9mail_push__notification_settings](img/k9mail_push__notification_settings.png)
+![k9mail_push__notification_long_press_2](img/k9mail_push__notification_long_press_2.png) ![k9mail_push__notification_settings](img/k9mail_push__notification_settings.jpg)
 
 In the screen to configure the *Synchronize (Push)* notification select the *Silent* option and turn on the *Minimize* switch.
 
