@@ -37,7 +37,7 @@ To configure which folders belong to the "1st Class folders" group, open the sid
 
 Select the folder you want to configure. Then in the folder settings screen pick *1st Class* from the list of options for the *Folder push class* setting.
 
-![k9mail_push__folder_settings](img/k9mail_push__folder_settings.jpg) ![k9mail_push__folder_push_class](img/k9mail_push__folder_push_class.png)
+![k9mail_push__folder_settings](img/push_folder_settings.png) ![k9mail_push__folder_push_class](img/k9mail_push__folder_push_class.png)
 
 Repeat this process for every folder you want to check via Push. But try to keep the number of folders as low as possible. The app has to maintain an open connection for every Push folder. Most servers put a rather low limit on how many open connections per user are allowed. More connections also mean more network traffic and more system resources used on your Android device.
 
