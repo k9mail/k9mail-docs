@@ -23,7 +23,7 @@ When setting up a new account Push is disabled by default. To enable it go to *S
 select the account you want to configure, then open the *Fetching mail* section. 
 The *Push folders* setting is used to configure which class of folders should use the Push mechanism to wait for new messages.
 
-![K9 Mail Push Settings](img/k9mail_push__settings.jpg) 
+![K9 Mail Push Settings](img/push_settings.png) 
 
 ![K9 Mail Push Folders](img/k9mail_push__push_folders.png)
 
