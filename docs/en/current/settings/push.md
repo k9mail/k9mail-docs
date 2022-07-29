@@ -62,7 +62,9 @@ Android requires apps to create the notification. But it allows users to turn of
 The notification does show some status information, e.g. when waiting for network connectivity. If you want to keep the notification but get rid of the icon in the status bar you can "minimize" the notification.
 Long-press the notification in the expanded notification drawer and select the gear icon in the upper right corner. Then tap the *Synchronize (Push)* text (not the switch next to it).
 
-![k9mail_push__notification_long_press_2](img/k9mail_push__notification_long_press_2.png) ![k9mail_push__notification_settings](img/k9mail_push__notification_settings.jpg)
+![k9mail_push__notification_long_press_2](img/k9mail_push__notification_long_press_2.png)
+
+![k9mail_push__notification_settings](img/push_notification_settings.png)
 
 In the screen to configure the *Synchronize (Push)* notification select the *Silent* option and turn on the *Minimize* switch.
 
