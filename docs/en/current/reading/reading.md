@@ -23,7 +23,7 @@ consistent before/after they perform the action.
 
 ## Browsing E-mail
 
-![Folder Message List](img/reading_folder_view.png) ![Message View](img/reading_email_view.png)
+![Folder Message List](img/reading_folder_view.png)
 
 At this point, you're looking at a Message List -- a list of all (or only the unread) messages in a given folder; in 
 this case, the Inbox folder for that email account.  This list displays:
@@ -47,6 +47,8 @@ At this point, you can:
 
 * tap on a message in the list to open it for reading, or 
 * tap the contact icon on the left of the message to select one or more messages.
+
+![Message View](img/reading_email_view.png)
 
 When one or more messages are selected, actions appear in the Action Bar at the top. There is also
 an overflow menu, so some of the actions might require you to tap the right hand menu icon (circled below.)
