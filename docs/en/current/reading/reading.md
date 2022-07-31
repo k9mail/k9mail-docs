@@ -5,25 +5,9 @@
 When you receive new mail, K-9 retrieves it (POP3) or polls for it or receives a push notification about it
 (IMAP).  If so configured, K-9 uses Android's notification system to alert you to the new messages.
 
-#### Sync Types & K-9 Behavior
-
-There are two ways of being notified of new mail synchronized to your device, Push and Poll.
-
-- "Push" means that the server notifies K-9 of new email. This is immediate, therefore
-the best choice if you want to be notified as soon as you have new mail. Unfortunately due to
-Android battery optimizations and unreliable networks, it does not always work.
-- "Poll" means K-9 periodically checks the server to see if new mail exists.
-
-Your choice of Push or Poll applies to each Folder Class within an account, rather than at the account level.
-
-You can also manually synchronize an account. In this case, K-9 polls all subscribed folders.
-
-Various actions within K-9 may cause it to perform an additional poll to ensure that the state is
-consistent before/after they perform the action.
-
 ## Browsing E-mail
 
-![Folder Message List](img/reading_folder_view.png) ![Message View](img/reading_email_view.png)
+![Folder Message List](img/reading_folder_view.png)
 
 At this point, you're looking at a Message List -- a list of all (or only the unread) messages in a given folder; in 
 this case, the Inbox folder for that email account.  This list displays:
@@ -47,6 +31,8 @@ At this point, you can:
 
 * tap on a message in the list to open it for reading, or 
 * tap the contact icon on the left of the message to select one or more messages.
+
+![Message View](img/reading_email_view.png)
 
 When one or more messages are selected, actions appear in the Action Bar at the top. There is also
 an overflow menu, so some of the actions might require you to tap the right hand menu icon (circled below.)
