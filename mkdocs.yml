@@ -21,6 +21,7 @@ nav:
         - Removing Accounts: en/current/accounts/remove.md
   - Reading:
     - Reading mail: en/current/reading/reading.md
+    - Managing mail: en/current/reading/managing.md
     - Notifications: en/current/reading/notifications.md
   - Sending:
     - Starting to Compose an E-mail: en/current/sending/sending_start.md

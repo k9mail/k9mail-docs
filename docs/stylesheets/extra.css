@@ -1,3 +1,7 @@
 img[src*="/img/"] {
 width:25em;
 }
+
+img.example_icon {
+width:2em;
+}
