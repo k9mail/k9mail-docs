@@ -145,9 +145,9 @@ influenced by this setting.
 #### Visible message actions
 Configure which message actions will be promoted to the first level of the menu in the message view.
 
-**Note:** Checking an item doesn't mean that this action will be displayed in the action bar. There is only a limited 
-number of actions that will be displayed in the action bar, the rest will move to the so called overflow menu that is 
-accessible using the icon with the three dots.
+**Note:** Checking an item doesn't mean that this action is always displayed in the action bar. There are only a limited
+number of actions that can be displayed in the action bar, the rest are shown in the "overflow" menu that you can
+access using the icon with the three dots.
 
 #### Auto-fit message
 Enable this to shrink messages to fit the screen width.
