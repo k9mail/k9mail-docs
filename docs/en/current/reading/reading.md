@@ -31,6 +31,10 @@ At this point you can tap on a message in the list to open it for reading.
 
 ![Message View](img/reading_email_view.png)
 
+The list of icons at the top defaults to "Delete" and "Mark Unread". You can change this if you want
+(for example, if you usually archive instead of delete) using the
+[Visible Message Actions](../../settings/general#visible-message-actions) setting.
+
 When in an email, you can pinch-to-zoom. From versions 6.300 and on, you can also swipe right (or left) to 
 move to the next (or previous) message.
 
