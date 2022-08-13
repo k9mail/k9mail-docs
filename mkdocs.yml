@@ -1,7 +1,10 @@
 site_name: K-9 Mail
 repo_url: https://github.com/k9mail/k9mail-docs
 edit_uri: edit/main/docs/
-theme: material
+theme:
+  name: material
+  logo: assets/icon.png
+  favicon: assets/favicon.png
 markdown_extensions:
   - toc
 nav:
