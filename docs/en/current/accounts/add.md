@@ -4,16 +4,25 @@ The account set-up wizard will launch automatically after the [Welcome Screen](.
 For any additional accounts they can be added by going to the accounts menu, 
 and then tapping the "Add account" option in the overflow menu.
 
-First you are asked for your email address and password.
+First you are asked for your email address.
 
-The buttons "Manual setup" and "Next" become only activated after a correctly formatted email address and a password
-have been typed in.
+![Screen to enter email address and password](img/account_setup_step1_empty.png)
 
-![Screen to enter email address and password](img/account_setup_step1_empty.png) ![Email address and password filled in](img/account_setup_step1_filled_in.png)
+The buttons "Manual setup" and "Next" become only activated after a correctly formatted email address has been typed in.
+
+If the email address belongs to a known email provider that requires the use of OAuth 2.0 (currently: Gmail, Yahoo, AOL, Hotmail/Outlook), you'll see the following screen.
+
+![Sign in screen](img/account_setup_step1_sign_in.png)
+
+Tapping the "sign in" button will open the browser so you can authorize K-9 Mail to access your emails.
+
+
+For all other providers, you'll be asked to provide your email password.
+
+![Email address and password filled in](img/account_setup_step1_filled_in.png)
 
 If you choose "Next" and the domain part of your email address is known to K-9 Mail, the connection settings for the 
-incoming and outgoing server are automatically set up for you. This is the case for some large email providers, 
-e.g. Gmail, Yahoo!, and AOL.
+incoming and outgoing server are automatically set up for you. This is the case for some large email providers.
 
 We also list information on the settings for major e-mail providers [in the FAQ](https://forum.k9mail.app/c/faq/6).
 
