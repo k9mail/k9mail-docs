@@ -38,7 +38,7 @@ require that you fill in your entire email address here. In this case, if you en
 previous screen, you will need to re-enter the hostname part here, as K-9 Mail doesn't know whether you need it and
 assumes you don't.
 
-**Authentication**: This specifies which authentication method to use after you have a valid, hopefully encrypted, 
+**Authentication**: This specifies which authentication method to use after you have a valid, hopefully encrypted,
 connection. Available options are:
 
 * **Normal password**: The password is transmitted in plain text.
@@ -47,6 +47,7 @@ If the connection security is TLS or STARTTLS, the password is still protected a
 method.
 * **Client certificate**: Use this if the service supports authentication using the client certificate from the TLS connection.
 If the server requires *both* certificate and password, choose one of the "Password" options here.
+* **OAuth 2.0**: The app only supports this method with a handful of email providers (currently: Gmail, Yahoo, AOL, Hotmail/Outlook)
 * **Password, transmitted insecurely**: (Only displayed if Security is "None") Use only as a last resort. The password will be transmitted without any encryption.
 
 **Password**: Here you enter the password to access your emails. The password you entered at the first step of the
