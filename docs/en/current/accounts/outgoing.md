@@ -46,6 +46,7 @@ You shouldn't need to change this.
 method.
 * **Client certificate**: Use this if the service supports authentication using the client certificate from the TLS connection.
 If the server requires *both* certificate and password, choose one of the "Password" options here.
+* **OAuth 2.0**: The app only supports this method with a handful of email providers (currently: Gmail, Yahoo, AOL, Hotmail/Outlook).
 * **Password, transmitted insecurely**: (Only displayed if Security is "None") Use only as a last resort. The password will be transmitted without any encryption.
 
 **Password**: The password that's needed to authenticate to the SMTP server. This is often, though not always, identical
