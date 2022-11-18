@@ -34,7 +34,7 @@ Available options:
 ### Mark as read when opened
 Check this to mark messages as read when you open them (the default). 
 
-Independent of what you select here, you can always select *Mark as read* or *Mark unread* from the menu when viewing a 
+Independent of what you select here, you can always select *Mark as read* or *Mark unread* from the menu when viewing a
 message.
 
 
@@ -114,15 +114,11 @@ Please see [Incoming Server Settings](../accounts/add.md#incoming-server-setting
 
 ### Advanced
 
-K-9 Mail supports some advanced settings for IMAP accounts. If you're not familiar with the details of the IMAP 
+K-9 Mail supports some advanced settings for IMAP accounts. If you're not familiar with the details of the IMAP
 protocol you shouldn't change any of these settings. 
 
-#### Poll when connecting for push
-When this is enabled, K-9 Mail will do a full folder synchronization after establishing a Push connection. Otherwise it 
-will only download new messages.
-
 #### Max folders to check with push
-K-9 Mail needs to establish one connection for each folder that is checked via Push. This can quickly add up and exceed 
+K-9 Mail needs to establish one connection for each folder that is checked via Push. This can quickly add up and exceed
 the number of concurrent connections your mail server allows you to establish.
 This setting is intended as safety mechanism to limit the number of Push connections regardless of how many folders are 
 configured to be checked via Push.
@@ -218,8 +214,8 @@ following options:
   Recipients, Time, and Subject from the original email's message header fields.
 
 ### Quote message when replying
-Uncheck this if by default you don't want to include the original message in your reply. You will still be able to 
-include the original message by clicking the *Quote message* button in the message composition screen when replying to 
+Uncheck this if by default you don't want to include the original message in your reply. You will still be able to
+include the original message by clicking the *Quote message* button in the message composition screen when replying to
 a message.
 
 ### Strip signatures on reply
@@ -232,7 +228,7 @@ Upload sent messages to your account's Sent folder if the send was successful.
 
 ### Outgoing server
 
-Please see [Configuring the outgoing server](../accounts/outgoing.md#configuring-the-outgoing-server) for the available 
+Please see [Configuring the outgoing server](../accounts/outgoing.md#configuring-the-outgoing-server) for the available
 settings.
 
 
@@ -313,11 +309,11 @@ Here you can specify whether and how you want to be notified of certain events.
 Enable this if you want K-9 Mail to notify you when new (unread) messages have been downloaded.
 
 ### Notification folders
-K-9 Mail will only create notifications for messages in folders whose 
+K-9 Mail will only create notifications for messages in folders whose
 [notification class](folder.md#folder-notification-class) matches this setting.
 
 ### Include outgoing mail
-If this is unchecked K-9 Mail will not create notifications for downloaded messages that were sent by an address from 
+If this is unchecked K-9 Mail will not create notifications for downloaded messages that were sent by an address from
 one of your configured identities.
 
 ### Contacts only
@@ -331,7 +327,7 @@ for chat messages. Otherwise you might end up with notifications for the same me
 Select a notification sound.
 
 ### Vibration
-Here you can configure a vibration pattern for notifications. There are multiple patterns available. A pattern can 
+Here you can configure a vibration pattern for notifications. There are multiple patterns available. A pattern can
 be repeated up to 10 times.
 
 **Note:** Even with this setting unchecked a notification can cause a vibration when you've configured a ringtone and 
@@ -371,7 +367,7 @@ This will open the system screen to configure miscellaneous notifications, like 
 sync notification.  
 
 **Note:** You should never disable all notifications in this category. Otherwise you might miss important error
-notifications. If you only want to get rid of sync notifications, use the [*Sync notifications*](#sync-notifications) 
+notifications. If you only want to get rid of sync notifications, use the [*Sync notifications*](#sync-notifications)
 setting instead.
 
 ## Search
@@ -413,7 +409,7 @@ dummy "Encrypted Message" subject instead.
 
 ### Store all drafts encrypted
 
-If you are drafting an email that you plan to send without end-to-end encryption, 
+If you are drafting an email that you plan to send without end-to-end encryption,
 encrypting the draft message is not necessary. If the draft is encrypted, it could cause problems
 such as preventing you from finishing the draft on another mail client which doesn't support PGP.
 

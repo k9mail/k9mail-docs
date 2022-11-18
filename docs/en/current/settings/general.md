@@ -154,16 +154,15 @@ Enable this to shrink messages to fit the screen width.
 
 ## Interaction
 
-### Volume key navigation
-Here you can specify whether you want to use the hardware volume keys to move up and down in the message list, or move 
-to the previous and next message in the message view.
+### Volume key navigation in message view
+Here you can specify whether you want to use the hardware volume keys to the previous and next message in the message view.
 
 ### Return to list after delete
-When this setting is enabled deleting a message in the message view will return to the message list rather than moving 
+When this setting is enabled deleting a message in the message view will return to the message list rather than moving
 to the previous/next message.
 
 ### Show next message after delete
-Enabling this setting always moves to the next message after deleting a message from the message view. When it is 
+Enabling this setting always moves to the next message after deleting a message from the message view. When it is
 disabled you move to the next or previous message depending on your previous travel direction.
 
 ### Confirm actions
@@ -234,7 +233,7 @@ Available settings are:
 'Auto-sync' is an Android-wide setting that controls accounts that link to the device. Currently K-9 email accounts do 
 not function in this way. However setting this will make the app reflect the general auto-sync setting.
 
-The configuration of Android's Auto-sync setting may vary depending on your device's Android version and device 
+The configuration of Android's Auto-sync setting may vary depending on your device's Android version and device
 manufacturer. On stock Android it's found under: "Settings -> Users & accounts -> Automatically sync data"
 
 * [Google provide information about auto-sync and Nexus phones](https://support.google.com/nexus/answer/2840875?hl=en-GB)
