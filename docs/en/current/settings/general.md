@@ -178,6 +178,18 @@ You can enable confirmations for the following actions:
 * Discard message
 * Mark all messages as ready
 
+### Swipe actions
+In the message list you can perform actions on a message by swiping it to the left or to the right. Available options are:
+
+* None
+* Toggle selection
+* Mark as read/unread
+* Add/remove star
+* Archive
+* Delete
+* Spam
+* Move
+
 
 ## Notifications
 
