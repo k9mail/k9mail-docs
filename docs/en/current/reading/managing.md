@@ -16,19 +16,33 @@ The icons have the following meanings:
 
 <table>
 <tr>
-<td> <img src="../img/ic_trash_can.svg" class="example_icon"> </td><td>Delete </td> 
+<td> <img src="../img/ic_trash_can.svg" class="example_icon"> </td><td>Delete </td>
 </tr>
 <tr>
-<td> <img src="../img/ic_opened_envelope.svg" class="example_icon"> </td><td>Mark as read</td> 
+<td> <img src="../img/ic_opened_envelope.svg" class="example_icon"> </td><td>Mark as read</td>
 </tr>
 <tr>
-<td> <img src="../img/ic_mark_new.svg" class="example_icon"> </td><td>Mark as unread</td> 
+<td> <img src="../img/ic_mark_new.svg" class="example_icon"> </td><td>Mark as unread</td>
 </tr>
 <tr>
-<td> <img src="../img/ic_archive.svg" class="example_icon"> </td><td>Move the selected message(s) to the configured Archive folder</td> 
+<td> <img src="../img/ic_archive.svg" class="example_icon"> </td><td>Move the selected message(s) to the configured Archive folder</td>
 </tr>
 </table>
 
+
+## Swipe actions
+
+Actions on a message can also be triggered by swiping it to the left or to the right. Dragging the list item in either direction
+reveals the icon and the name of the action. The message has to be dragged a certain distance before the action will be performed when
+the list item is released (finger is lifted from the screen). The background color changes from a gray to a colored background when that
+threshold is crossed. To not perform the action, keep your finger on the screen and drag the item back towards its original position until
+the background changes to gray again, then release the item.  
+The swipe gesture doesn't have to be performed slowy. Flinging the message to the left or to the right will work as well.
+
+![Swipe action](img/swipe_action.png)
+
+Which action is performed can be configured separately per swipe direction under
+*General Settings → Interaction → [Swipe actions](../settings/general.md#swipe-actions)*.
 
 
 ## Message Actions
