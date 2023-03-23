@@ -1,0 +1,75 @@
+site_name: K-9 Mail
+site_url: https://docs.k9mail.app/en/
+docs_dir: '../../docs/en'
+site_dir: '../../site/en'
+repo_url: https://github.com/k9mail/k9mail-docs
+edit_uri: edit/main/docs/en/
+
+theme:
+  name: material
+  custom_dir: '../../overrides/'
+  logo: assets/images/icon.png
+  favicon: assets/images/favicon.png
+  language: en
+  features:
+    - content.action.edit
+    - navigation.footer
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  version:
+    provider: mike
+    default: current
+
+markdown_extensions:
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mike:
+      canonical_version: current
+      css_dir: assets/stylesheets
+      javascript_dir: assets/javascripts
+
+nav:
+  - Welcome: index.md
+  - Setup:
+    - Installation: setup/installation.md
+    - Initial Set-up: setup/welcome.md
+    - App permissions: setup/permissions.md
+  - Accounts:
+    - Adding an Account: accounts/add.md
+    - IMAP Server Settings: accounts/incoming_imap.md
+    - POP3 Server Settings: accounts/incoming_pop3.md
+    - Outgoing Server Settings: accounts/outgoing.md
+    - Managing / Viewing Accounts:
+        - Adding another account: accounts/add_another.md
+        - Switching Accounts: accounts/switching.md
+        - Removing Accounts: accounts/remove.md
+  - Reading:
+    - Reading mail: reading/reading.md
+    - Unified Inbox: reading/unified_inbox.md
+    - Managing mail: reading/managing.md
+    - Notifications: reading/notifications.md
+  - Sending:
+    - Starting to Compose an E-mail: sending/sending_start.md
+    - Editing E-mail Content: sending/sending_content.md
+  - Settings:
+    - Settings Overview: settings/overview.md
+    - General settings: settings/general.md
+    - Account settings: settings/account.md
+    - Push settings: settings/push.md
+    - Folder settings: settings/folder.md
+    - Export settings: settings/export.md
+    - Import settings: settings/import.md
+    - Folder classes: settings/folder_classes.md
+  - Security:
+    - Overview: security/overview.md
+    - PGP: security/pgp.md
+  - Miscellaneous:
+    - Widgets: misc/widgets.md
+    - Debugging: misc/debugging.md
+    - Frequently asked questions: https://forum.k9mail.app/c/faq/6

@@ -1,0 +1,37 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '.gitignore'
+      - 'readme_images/**'
+      - '*.md'
+
+jobs:
+  build:
+    name: 'Deploy docs'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          cache: 'pip'
+      - name: 'Install Python packages'
+        run: pip install -r requirements.txt
+      - name: 'Prepare Git'
+        run: |
+          remote_repo="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git remote rm origin
+          git remote add origin "${remote_repo}"
+          git fetch origin gh-pages --depth=1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Read version number'
+        run: echo "APP_VERSION=$(cat VERSION)" >> $GITHUB_ENV
+      - name: 'Deploy documentation for stable version'
+        run: mike deploy --push --config-file config/en/mkdocs.yml --prefix en/ --update-aliases ${APP_VERSION} current
