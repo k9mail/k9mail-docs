@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - stable
     paths-ignore:
       - '.gitignore'
       - 'readme_images/**'
@@ -33,5 +34,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Read version number'
         run: echo "APP_VERSION=$(cat VERSION)" >> $GITHUB_ENV
+      - name: 'Deploy documentation for beta version'
+        if: github.ref_name == 'main'
+        run: mike deploy --push --config-file config/en/mkdocs.yml --prefix en/ --title "${APP_VERSION} (beta)" beta
       - name: 'Deploy documentation for stable version'
+        if: github.ref_name == 'stable'
         run: mike deploy --push --config-file config/en/mkdocs.yml --prefix en/ --update-aliases ${APP_VERSION} current

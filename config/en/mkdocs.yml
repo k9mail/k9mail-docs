@@ -3,7 +3,7 @@ site_url: https://docs.k9mail.app/en/
 docs_dir: '../../docs/en'
 site_dir: '../../site/en'
 repo_url: https://github.com/k9mail/k9mail-docs
-edit_uri: edit/main/docs/en/
+edit_uri: edit/stable/docs/en/
 
 theme:
   name: material
