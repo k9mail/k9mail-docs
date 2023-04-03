@@ -5,11 +5,11 @@
 By default, K-9 Mail combines the messages from your accounts into a single view called the Unified Inbox.
 The coloured chip to the left of the subject line shows you which account owns that message.
 
-![Unified Inbox](img/unified_inbox.png)
+![Unified Inbox](img/unified_inbox_account_chip_highlight.png)
 
 The colours match the account colours that you can see when you open the sidebar.
 
-![Account Colours](img/account_colours.png)
+![Account Colours](img/drawer_account_list_account_image_highlight.png)
 
 You can change these colours, see [Account Color](../settings/account.md#account-color).
 

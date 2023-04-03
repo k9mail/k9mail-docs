@@ -7,7 +7,7 @@ Tap the contact icon on the left of the message to select one or more messages.
 ![Multi select](img/managing_multiselect.png)
 
 When one or more messages are selected, actions appear in the Action Bar at the top. There is also
-an overflow menu, so some of the actions might require you to tap the right hand menu icon (circled below.)
+an overflow menu, so some of the actions might require you to tap the right hand menu icon (three dots).
 If you are unsure of the meaning of an icon, you can safely long-press it to show a tooltip.
 
 ![Message Options](img/reading_actionbar_options.png)
