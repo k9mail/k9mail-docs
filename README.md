@@ -10,12 +10,37 @@ The `main` branch contains the documentation for the current beta version.
 
 The `stable` branch contains the documentation for the current stable version and is displayed by default when the site is accessed via <https://docs.k9mail.app/>.
 
+## Install dependencies
+
+Best is using a virtual environment to avoid conflicts with other Python projects:
+
+```shell
+python -m venv venv
+```
+
+Activate the virtual environment. You need to do this every time you want to build the site:
+
+```shell
+source virtual_env/bin/activate
+```
+
+Install the dependencies:
+
+```shell
+pip install -r requirements.txt
+```
+
+After you are done, deactivate the virtual environment:
+
+```shell
+deactivate
+```
+
 ## Building the Site
 
 To preview local changes, run
 
 ```shell
-pip install -r requirements.txt
 mkdocs serve --config-file config/en/mkdocs.yml
 ```
 
