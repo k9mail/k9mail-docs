@@ -10,7 +10,7 @@ The `main` branch contains the documentation for the current beta version.
 
 The `stable` branch contains the documentation for the current stable version and is displayed by default when the site is accessed via <https://docs.k9mail.app/>.
 
-## Install dependencies
+## Installing dependencies
 
 Best is using a virtual environment to avoid conflicts with other Python projects:
 
