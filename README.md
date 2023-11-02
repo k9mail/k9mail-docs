@@ -48,4 +48,4 @@ then visit <http://127.0.0.1:8000/en/>.
 
 ## Creating Screenshots
 
-We automated the creation of screenshots. The tools and a short explanation can be found in the [user-manual](https://github.com/thundernest/k-9/tree/main/user-manual) directory of the [K-9 Mail app repository](https://github.com/thundernest/k-9).
+We automated the creation of screenshots. The tools and a short explanation can be found in the [user-manual](https://github.com/thunderbird/thunderbird-android/tree/main/user-manual) directory of the [K-9 Mail app repository](https://github.com/thunderbird/thunderbird-android).

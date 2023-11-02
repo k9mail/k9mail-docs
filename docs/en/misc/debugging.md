@@ -12,4 +12,4 @@ reports all the device's activity to a central server. While this would make iss
 it would also be costly to host the server and compromise the privacy of our users.
 
 Instead we ask, if you find an issue, and are willing to help, you provide the logs yourself.
-Up-to-date instructions on logging are provided on the [wiki](https://github.com/thundernest/k-9/wiki/LoggingErrors).
+Up-to-date instructions on logging are provided on the [wiki](https://github.com/thunderbird/thunderbird-android/wiki/LoggingErrors).
