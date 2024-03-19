@@ -1,0 +1,38 @@
+site_name: K-9 Mail
+site_url: https://docs.k9mail.app/ga/
+docs_dir: '../../docs/ga'
+site_dir: '../../site/ga'
+repo_url: https://github.com/k9mail/k9mail-docs
+edit_uri: edit/main/docs/ga/
+
+theme:
+  name: material
+  custom_dir: '../../overrides/'
+  logo: assets/images/icon.png
+  favicon: assets/images/favicon.png
+  language: en
+  features:
+    - content.action.edit
+    - navigation.footer
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  version:
+    provider: mike
+    default: current
+
+markdown_extensions:
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mike:
+      canonical_version: current
+      css_dir: assets/stylesheets
+      javascript_dir: assets/javascripts
+
+nav:
+  - Fáilte: index.md

@@ -21,7 +21,7 @@ python -m venv venv
 Activate the virtual environment. You need to do this every time you want to build the site:
 
 ```shell
-source virtual_env/bin/activate
+source venv/bin/activate
 ```
 
 Install the dependencies:
