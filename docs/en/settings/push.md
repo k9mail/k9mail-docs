@@ -83,8 +83,6 @@ To disable Push, tap the notification, then press the *Disable Push* button.
 ![k9mail_push__info_screen](img/push_info_screen.png)
 
 This will change the *Push folders* setting to *None* for all accounts.
-This will change the *Push folders* setting to *None* for all accounts.
-
 
 ## What to do when Push is not working reliably?
 
