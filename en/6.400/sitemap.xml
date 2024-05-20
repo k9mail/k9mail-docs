@@ -2,147 +2,147 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.k9mail.app/en/current/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/accounts/add/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/accounts/add_another/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/accounts/incoming_imap/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/accounts/incoming_pop3/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/accounts/outgoing/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/accounts/remove/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/accounts/switching/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/misc/debugging/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/misc/widgets/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/reading/managing/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/reading/notifications/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/reading/reading/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/reading/unified_inbox/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/security/overview/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/security/pgp/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/sending/sending_content/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/sending/sending_start/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/settings/account/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/settings/export/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/settings/folder/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/settings/folder_classes/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/settings/general/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/settings/import/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/settings/overview/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/settings/push/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/setup/installation/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/setup/permissions/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.k9mail.app/en/current/setup/welcome/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
